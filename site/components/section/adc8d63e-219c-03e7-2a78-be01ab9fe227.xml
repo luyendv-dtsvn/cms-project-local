@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/plugins/org/craftercms/plugin/contactform/contact-form</content-type>
+	<display-template>/templates/plugins/org/craftercms/plugin/contactform/contact-form.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>adc8</objectGroupId>
+	<objectId>adc8d63e-219c-03e7-2a78-be01ab9fe227</objectId>
+	<file-name>adc8d63e-219c-03e7-2a78-be01ab9fe227.xml</file-name>
+	<folder-name/>
+	<localeCode>en</localeCode>
+	<internal-name>test contact</internal-name>
+	<formId_s>test contact form id</formId_s>
+	<title_s>test contact title</title_s>
+	<url_s>/plugins/org/craftercms/plugin/contactform/contactform</url_s>
+	<messageLabel_s>Message Label</messageLabel_s>
+	<submitLabel_s>Submit Label</submitLabel_s>
+	<usePluginTheme_b>true</usePluginTheme_b>
+	<usePluginScript_b>true</usePluginScript_b>
+	<fields_o item-list="true">	<item>	<fieldLabel_s>Field Label 1</fieldLabel_s>
+	<fieldName_s>Field Name 2</fieldName_s>
+	<required_b>true</required_b>
+	</item></fields_o>
+	<createdDate>2024-11-06T08:51:13.936Z</createdDate>
+	<createdDate_dt>2024-11-06T08:51:13.936Z</createdDate_dt>
+	<lastModifiedDate>2024-11-06T08:51:13.936Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-06T08:51:13.936Z</lastModifiedDate_dt>
+</component>
