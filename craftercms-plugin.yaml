@@ -97,4 +97,3 @@ plugin:
   crafterCmsEditions:
     - community
     - enterprise
-  searchEngine: Elasticsearch
