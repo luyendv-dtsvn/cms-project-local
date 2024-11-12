@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component id="9597e75a-6db9-4680-b526-f4cb0edd9c29">
+  <content-type>/component/plugins/org/craftercms/plugin/contactform/contact-form</content-type>
+  <display-template>/templates/plugins/org/craftercms/plugin/contactform/contact-form.ftl</display-template>
+  <internal-name><![CDATA[New Contact Form]]></internal-name>
+  <file-name>9597e75a-6db9-4680-b526-f4cb0edd9c29.xml</file-name>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <createdDate_dt>2024-11-12T02:54:46.228Z</createdDate_dt>
+  <lastModifiedDate_dt>2024-11-12T02:54:46.228Z</lastModifiedDate_dt>
+  <objectId>9597e75a-6db9-4680-b526-f4cb0edd9c29</objectId>
+  <localeCode>en</localeCode>
+  <formId_s/>
+  <title_s/>
+  <url_s><![CDATA[/plugins/org/craftercms/plugin/contactform/contactform]]></url_s>
+  <fields_o/>
+  <messageLabel_s/>
+  <submitLabel_s/>
+  <usePluginTheme_b>true</usePluginTheme_b>
+  <usePluginScript_b>true</usePluginScript_b>
+</component>
