@@ -542,7 +542,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/contact-us,/component/event-details,/component/faq,/component/overview-image,/component/programs,/component/rte,/component/intro,/component/register,/component/speakers,/component/sponsors,/component/overview-video</value>
+							<value>/component/contact-us,/component/event-details,/component/faq,/component/overview-image,/component/programs,/component/rte,/component/intro,/component/register,/component/speakers,/component/sponsors,/component/overview-video,/component/plugins/org/craftercms/plugin/contactform/contact-form</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
