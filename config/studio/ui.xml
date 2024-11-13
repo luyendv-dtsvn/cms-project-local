@@ -79,15 +79,6 @@
                   <locale>en</locale>
                </configuration>
             </widget>
-            <widget id="craftercms.components.PathNavigatorTree">
-               <configuration>
-                  <id>Sources</id>
-                  <label>Sources</label>
-                  <icon id="@mui/icons-material/InsertDriveFileOutlined"/>
-                  <rootPath>/sources</rootPath>
-                  <locale>en</locale>
-               </configuration>
-            </widget>
             <widget id="craftercms.components.ToolsPanelEmbeddedAppViewButton">
                <permittedRoles>
                   <role>admin</role>
