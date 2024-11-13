@@ -84,7 +84,7 @@
                   <id>Sources</id>
                   <label>Sources</label>
                   <icon id="@mui/icons-material/InsertDriveFileOutlined"/>
-                  <rootPath>/sources/</rootPath>
+                  <rootPath>/sources</rootPath>
                   <locale>en</locale>
                </configuration>
             </widget>
