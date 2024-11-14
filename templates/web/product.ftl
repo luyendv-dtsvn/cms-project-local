@@ -8,6 +8,14 @@
   <body>
     <@crafter.body_top />
     <#-- Insert your body markup  here -->
+    ${contentModel.productname_s}
+    ${contentModel.description_html}
+    
+    ${contentModel.infoProduct_o}
+    
+    <#list contentModel.VARIABLE_NAME.item as row>
+        ${row.VARIABLE_NAME}
+</#list>
     <@crafter.body_bottom />
   </body>
 </html>
