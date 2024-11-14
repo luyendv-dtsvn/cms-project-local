@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <#-- Insert your head markup here -->
+    <#-- Insert your head markup here -->${contentModel.header_o}
     <@crafter.head />
   </head>
   <body>
