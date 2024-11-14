@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/page-product</content-type>
+	<display-template>/templates/web/product.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>bb02</objectGroupId>
+	<objectId>bb029b85-286b-7e2e-641d-4567f89144a0</objectId>
+	<internal-name>Thẻ ghi nợ quốc tế thương hiệu Visa Hạng chuẩn</internal-name>
+	<navLabel>no</navLabel>
+	<productname_s>Thẻ ghi nợ quốc tế thương hiệu Visa Hạng chuẩn</productname_s>
+	<file-name>index.xml</file-name>
+	<folder-name>debit</folder-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<header_o item-list="true">	<item>	<key>/site/components/section/intro.xml</key>
+	<value>intro</value>
+	<include>/site/components/section/intro.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></header_o>
+	<imageAvatar_s>/static-assets/item/images/product/debit.png</imageAvatar_s>
+	<description_html>&lt;ul&gt;
+&lt;li&gt;Giao dịch tại h&amp;agrave;ng triệu điểm chấp nhận thẻ ATM/POS c&amp;oacute; logo MasterCard tr&amp;ecirc;n to&amp;agrave;n cầu.&lt;/li&gt;
+&amp;nbsp;
+&lt;li&gt;Thanh to&amp;aacute;n h&amp;agrave;ng h&amp;oacute;a, dịch vụ trực tuyến với ti&amp;ecirc;u chuẩn bảo mật to&amp;agrave;n cầu D-Secured bằng bất kỳ loại tiền tệ n&amp;agrave;o.&lt;/li&gt;
+&amp;nbsp;
+&lt;li&gt;Gửi tiền/Mở t&amp;agrave;i khoản Tiền gửi trực tuyến tiện lợi, linh hoạt tại ngay CDM&lt;/li&gt;
+&amp;nbsp;
+&lt;li&gt;T&amp;iacute;ch hợp giữa c&amp;ocirc;ng nghệ thẻ chip theo chuẩn EMV bảo mật tối ưu v&amp;agrave; c&amp;ocirc;ng nghệ thẻ kh&amp;ocirc;ng tiếp x&amp;uacute;c tiện lợi, ưu việt.&lt;/li&gt;
+&lt;/ul&gt;</description_html>
+	<infoProduct_o item-list="true">	<item>	<title_s>Thông tin chung</title_s>
+	<desInfo_html>&lt;p&gt;Hạn mức thấu chi&lt;/p&gt;
+&lt;p&gt;T&amp;iacute;nh năng nổi bật&lt;/p&gt;
+&lt;p&gt;Ph&amp;iacute; thường li&amp;ecirc;n&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</desInfo_html>
+	</item></infoProduct_o>
+	<createdDate>2024-11-14T04:37:53.315Z</createdDate>
+	<createdDate_dt>2024-11-14T04:37:53.315Z</createdDate_dt>
+	<lastModifiedDate>2024-11-14T04:37:53.315Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-14T04:37:53.315Z</lastModifiedDate_dt>
+</page>
