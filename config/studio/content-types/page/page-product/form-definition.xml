@@ -318,14 +318,32 @@
 	</sections>
 	<datasources>				<datasource>
 					<type>img-desktop-upload</type>
-					<id>uploadImage</id>
-					<title>Upload Image</title>
+					<id>uploadImages</id>
+					<title>Tải Ảnh lên</title>
 					<interface>image</interface>
 					<properties>
 						<property>
 							<name>repoPath</name>
 							<value>/static-assets/item/images/product</value>
 								<type>content-path-input</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>img-repository-upload</type>
+					<id>existingImages</id>
+					<title>Ảnh đã có</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/images</value>
+								<type>content-path-input</type>
+						</property>
+						<property>
+							<name>useSearch</name>
+							<value>false</value>
+								<type>boolean</type>
 						</property>
 					</properties>
 				</datasource>
