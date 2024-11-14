@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/event</content-type>
+	<display-template>/templates/web/event.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>2a14</objectGroupId>
+	<objectId>2a14a754-0fbc-3a1b-93b8-449839ae4b6d</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>products</folder-name>
+	<internal-name>Danh sách sản phẩm</internal-name>
+	<siteTitle_t>New Event</siteTitle_t>
+	<pageTitle_t>New Event</pageTitle_t>
+	<sections_o item-list="true"/>
+	<copyright_html/>
+	<createdDate>2024-11-14T04:37:25.795Z</createdDate>
+	<createdDate_dt>2024-11-14T04:37:25.795Z</createdDate_dt>
+	<lastModifiedDate>2024-11-14T04:37:25.795Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-14T04:37:25.795Z</lastModifiedDate_dt>
+</page>
