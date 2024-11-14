@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/page-product</content-type>
+	<display-template>/templates/web/product.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>711c</objectGroupId>
+	<objectId>711c8486-c032-a51c-5875-561286451db3</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>debits</folder-name>
+	<internal-name>Internal Name</internal-name>
+	<navLabel>Nav Label</navLabel>
+	<productname_s>Thẻ ghi nợ quốc tế</productname_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<header_o item-list="true"/>
+	<imageAvatar_s>/static-assets/item/images/product/debit.png</imageAvatar_s>
+	<description_html>&lt;ul&gt;
+&lt;li&gt;Giao dịch tại h&amp;agrave;ng triệu điểm chấp nhận thẻ ATM/POS c&amp;oacute; logo MasterCard tr&amp;ecirc;n to&amp;agrave;n cầu.&lt;/li&gt;
+&amp;nbsp;
+&lt;li&gt;Thanh to&amp;aacute;n h&amp;agrave;ng h&amp;oacute;a, dịch vụ trực tuyến với ti&amp;ecirc;u chuẩn bảo mật to&amp;agrave;n cầu D-Secured bằng bất kỳ loại tiền tệ n&amp;agrave;o.&lt;/li&gt;
+&amp;nbsp;
+&lt;li&gt;Gửi tiền/Mở t&amp;agrave;i khoản Tiền gửi trực tuyến tiện lợi, linh hoạt tại ngay CDM&lt;/li&gt;
+&amp;nbsp;
+&lt;li&gt;T&amp;iacute;ch hợp giữa c&amp;ocirc;ng nghệ thẻ chip theo chuẩn EMV bảo mật tối ưu v&amp;agrave; c&amp;ocirc;ng nghệ thẻ kh&amp;ocirc;ng tiếp x&amp;uacute;c tiện lợi, ưu việt.&lt;/li&gt;
+&lt;/ul&gt;</description_html>
+	<createdDate>2024-11-14T04:44:02.856Z</createdDate>
+	<createdDate_dt>2024-11-14T04:44:02.856Z</createdDate_dt>
+	<lastModifiedDate>2024-11-14T04:44:02.856Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-14T04:44:02.856Z</lastModifiedDate_dt>
+</page>
