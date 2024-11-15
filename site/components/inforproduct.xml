@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/intro</content-type>
+	<display-template>/templates/web/section/intro.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>f0e5</objectGroupId>
+	<objectId>f0e58e31-dbef-6aa4-235f-dfbe25649043</objectId>
+	<placeInNav>true</placeInNav>
+	<file-name>inforproduct.xml</file-name>
+	<folder-name/>
+	<internal-name>inforproduct</internal-name>
+	<navLabel>Infor Product</navLabel>
+	<title_t>Thẻ ghi nợ quốc tế Visa Hạng Chuẩn</title_t>
+	<datePlace_t>thanh toán toàn cầu, bảo mật, tiện lợi, dễ dùng.</datePlace_t>
+	<backgroundImage_s>/static-assets/images/backgroundbank.jpg</backgroundImage_s>
+	<createdDate>2024-11-15T04:35:59.988Z</createdDate>
+	<createdDate_dt>2024-11-15T04:35:59.988Z</createdDate_dt>
+	<lastModifiedDate>2024-11-15T04:35:59.988Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-15T04:35:59.988Z</lastModifiedDate_dt>
+</component>
