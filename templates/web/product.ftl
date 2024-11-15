@@ -103,7 +103,7 @@
                
                 
                    <a
-                    href="${media.url_s}"  wow fadeInUp"
+                    href="${media.url_s}" 
                     data-wow-delay="${delay}s"
                     target="_blank"
                   ></a>  
