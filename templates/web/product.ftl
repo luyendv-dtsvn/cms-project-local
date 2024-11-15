@@ -100,11 +100,11 @@
               <#assign delay=1 />
               <#list contentModel.socialMedia_o.item as media>
                 <li>
-                  <a
+                  <#--  <a
                     href="${media.url_s}" class="fa ${media.icon_s} wow fadeInUp"
                     data-wow-delay="${delay}s"
                     target="_blank"
-                  ></a>
+                  ></a>  -->
                 </li>
                 <#assign delay= (delay + 0.3) />
               </#list>
