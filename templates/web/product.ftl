@@ -2,7 +2,25 @@
 <!doctype html>
 <html lang="en">
   <head>
-    
+    <head>
+  <meta charset="utf-8">
+  <title>${model.siteTitle_t}</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="/static-assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static-assets/css/animate.css">
+  <link rel="stylesheet" href="/static-assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/static-assets/css/owl.theme.css">
+  <link rel="stylesheet" href="/static-assets/css/owl.carousel.css">
+  <!-- Main css -->
+  <link rel="stylesheet" href="/static-assets/css/style.css">
+  <!-- Google Font -->
+  <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+  <@crafter.head/>
+</head>
     <@crafter.head />
   </head>
   <body>
@@ -67,6 +85,16 @@
         </div>
     </section>
     <@crafter.body_bottom />
+    <!-- =========================
+     SCRIPTS
+============================== -->
+<script src="/static-assets/js/jquery.js"></script>
+<script src="/static-assets/js/bootstrap.min.js"></script>
+<script src="/static-assets/js/jquery.parallax.js"></script>
+<script src="/static-assets/js/owl.carousel.min.js"></script>
+<script src="/static-assets/js/smooth-scroll.min.js"></script>
+<script src="/static-assets/js/wow.min.js"></script>
+<script src="/static-assets/js/custom.js"></script>
   </body>
 </html>
 
