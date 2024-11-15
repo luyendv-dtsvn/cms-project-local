@@ -12,12 +12,12 @@
 	<internal-name>inforproduct</internal-name>
 	<navLabel>Infor Product</navLabel>
 	<title_t>Thẻ ghi nợ quốc tế Visa Hạng Chuẩn</title_t>
-	<datePlace_t>thanh toán toàn cầu, bảo mật, tiện lợi, dễ dùng.</datePlace_t>
+	<datePlace_t>Thanh toán toàn cầu, bảo mật, tiện lợi, dễ dùng.</datePlace_t>
 	<backgroundImage_s>/static-assets/images/intro-bg.jpg</backgroundImage_s>
 	<createdDate>2024-11-15T04:35:59.988Z</createdDate>
 	<createdDate_dt>2024-11-15T04:35:59.988Z</createdDate_dt>
-	<lastModifiedDate>2024-11-15T04:44:52.618Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-15T04:44:52.618Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-11-15T04:45:54.375Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-15T04:45:54.375Z</lastModifiedDate_dt>
 	<featuredSections_o item-list="true">	<item>	<overwriteLabel_t>Tìm hiểu thêm</overwriteLabel_t>
 	<showOnMobile_b>false</showOnMobile_b>
 	<section_o item-list="true">	<item>	<key>/site/components/section/image.xml</key>
