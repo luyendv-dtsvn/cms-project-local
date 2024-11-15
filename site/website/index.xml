@@ -13,7 +13,7 @@
   <createdDate>2017-01-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2017-05-24T2:11:17.000Z</lastModifiedDate>
-  <lastModifiedDate_dt>2024-11-15T04:26:29.483Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2024-11-15T04:37:40.392Z</lastModifiedDate_dt>
   <siteTitle_t>New Event</siteTitle_t>
   <pageTitle_t>New Event</pageTitle_t>
   <section/>
@@ -41,12 +41,6 @@
     </item>
   </socialMedia_o>
   <sections_o>
-    <item inline="false">
-      <key>/site/components/2d4fa354-6a63-47dd-9dae-e16a3029985b.xml</key>
-      <value><![CDATA[New Component - Intro]]></value>
-      <include>/site/components/2d4fa354-6a63-47dd-9dae-e16a3029985b.xml</include>
-      <disableFlattening>false</disableFlattening>
-    </item>
     <item>
       <key>/site/components/section/intro.xml</key>
       <value>intro</value>
