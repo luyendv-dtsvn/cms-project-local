@@ -60,7 +60,6 @@
                             <#list contentModel.infoProduct_o.item as info>
                             <#assign currentIndex = (currentIndex + 1) />
                              <div role="tabpanel" class="tab-pane <#if currentIndex==1>active</#if>" id="info${currentIndex}">
-                                    <div class="program-divider col-md-12 col-sm-12"></div>
                                     <div class="col-md-2 col-sm-2">
                                         <#if info.imageinfo_s?? && info.imageinfo_s?trim?has_content>
                                             <@crafter.img
