@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/page-product</content-type>
-	<display-template>/templates/web/product.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>bb02</objectGroupId>
-	<objectId>bb029b85-286b-7e2e-641d-4567f89144a0</objectId>
-	<internal-name>Thẻ ghi nợ quốc tế thương hiệu Visa Hạng chuẩn</internal-name>
-	<navLabel>no</navLabel>
-	<productname_s>Thẻ ghi nợ quốc tế thương hiệu Visa Hạng chuẩn</productname_s>
-	<file-name>index.xml</file-name>
-	<folder-name>debit</folder-name>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
-	<header_o item-list="true">	<item>	<key>/site/components/section/intro.xml</key>
-	<value>intro</value>
-	<include>/site/components/section/intro.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></header_o>
-	<imageAvatar_s>/static-assets/item/images/product/debit.png</imageAvatar_s>
-	<description_html>&lt;ul&gt;
+  <content-type>/page/page-product</content-type>
+  <display-template>/templates/web/product.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>bb02</objectGroupId>
+  <objectId>bb029b85-286b-7e2e-641d-4567f89144a0</objectId>
+  <internal-name>Thẻ ghi nợ quốc tế thương hiệu Visa Hạng chuẩn</internal-name>
+  <navLabel>no</navLabel>
+  <productname_s>Thẻ ghi nợ quốc tế thương hiệu Visa Hạng chuẩn</productname_s>
+  <file-name>index.xml</file-name>
+  <folder-name>debit</folder-name>
+  <placeInNav>false</placeInNav>
+  <orderDefault_f>-1</orderDefault_f>
+  <header_o item-list="true">
+    <item>
+      <key>/site/components/section/intro.xml</key>
+      <value>intro</value>
+      <include>/site/components/section/intro.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
+  </header_o>
+  <imageAvatar_s>/static-assets/item/images/product/debit.png</imageAvatar_s>
+  <description_html>&lt;ul&gt;
 &lt;li&gt;Giao dịch tại h&amp;agrave;ng triệu điểm chấp nhận thẻ ATM/POS c&amp;oacute; logo MasterCard tr&amp;ecirc;n to&amp;agrave;n cầu.&lt;/li&gt;
 &amp;nbsp;
 &lt;li&gt;Thanh to&amp;aacute;n h&amp;agrave;ng h&amp;oacute;a, dịch vụ trực tuyến với ti&amp;ecirc;u chuẩn bảo mật to&amp;agrave;n cầu D-Secured bằng bất kỳ loại tiền tệ n&amp;agrave;o.&lt;/li&gt;
@@ -28,14 +31,18 @@
 &amp;nbsp;
 &lt;li&gt;T&amp;iacute;ch hợp giữa c&amp;ocirc;ng nghệ thẻ chip theo chuẩn EMV bảo mật tối ưu v&amp;agrave; c&amp;ocirc;ng nghệ thẻ kh&amp;ocirc;ng tiếp x&amp;uacute;c tiện lợi, ưu việt.&lt;/li&gt;
 &lt;/ul&gt;</description_html>
-	<infoProduct_o item-list="true">	<item>	<title_s>Thông tin chung</title_s>
-	<desInfo_html>&lt;p&gt;Hạn mức thấu chi&lt;/p&gt;
+  <infoProduct_o item-list="true">
+    <item>
+      <title_s>Thông tin chung</title_s>
+      <desInfo_html>&lt;p&gt;Hạn mức thấu chi&lt;/p&gt;
 &lt;p&gt;T&amp;iacute;nh năng nổi bật&lt;/p&gt;
 &lt;p&gt;Ph&amp;iacute; thường li&amp;ecirc;n&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;</desInfo_html>
-	<imageinfo_s>/static-assets/item/images/product/thongtinchung.jpg</imageinfo_s>
-	</item>	<item>	<title_s>Đặc điểm &amp; lợi ích</title_s>
-	<desInfo_html>&lt;ul&gt;
+      <imageinfo_s>/static-assets/item/images/product/thongtinchung.jpg</imageinfo_s>
+    </item>
+    <item>
+      <title_s>Đặc điểm &amp; lợi ích</title_s>
+      <desInfo_html>&lt;ul&gt;
 &lt;li&gt;Giao dịch tại h&amp;agrave;ng triệu điểm chấp nhận thẻ ATM/POS c&amp;oacute; logo MasterCard tr&amp;ecirc;n to&amp;agrave;n cầu, ti&amp;ecirc;u d&amp;ugrave;ng đơn giản, kh&amp;ocirc;ng cần mang theo tiền mặt.&lt;/li&gt;
 &lt;li&gt;Thời gian hiệu lực: 05 (năm) năm kể từ ng&amp;agrave;y ph&amp;aacute;t h&amp;agrave;nh.&lt;/li&gt;
 &lt;li&gt;Thanh to&amp;aacute;n h&amp;agrave;ng h&amp;oacute;a, dịch vụ trực tuyến với ti&amp;ecirc;u chuẩn bảo mật to&amp;agrave;n cầu 3D-Secured bằng bất kỳ loại tiền tệ n&amp;agrave;o.&lt;/li&gt;
@@ -48,61 +55,53 @@
 &lt;li&gt;Điều kiện sử dụng:&amp;nbsp;C&amp;aacute; nh&amp;acirc;n l&amp;agrave; người Việt Nam v&amp;agrave; người nước ngo&amp;agrave;i sống tại Việt Nam từ đủ 15 tuổi trở l&amp;ecirc;n v&amp;agrave; c&amp;oacute; t&amp;agrave;i khoản tại Agribank.&amp;nbsp;Chi tiết c&amp;aacute;c điều kiện v&amp;agrave; điều khoản ph&amp;aacute;t h&amp;agrave;nh, sử dụng thẻ ghi nợ xem&amp;nbsp;&lt;a href="https://www.agribank.com.vn/wcm/connect/df7ac105-03f9-469e-ae29-be7f7bf619d4/%C4%90i%E1%BB%81u+ki%E1%BB%87n+v%C3%A0+%C4%91i%E1%BB%81u+kho%E1%BA%A3n+ph%C3%A1t+h%C3%A0nh%2C+s%E1%BB%AD+d%E1%BB%A5ng+th%E1%BA%BB+ghi+n%E1%BB%A3.pdf?MOD=AJPERES&amp;amp;CVID=ntrhDPR"&gt;tại đ&amp;acirc;y&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;</desInfo_html>
-	<imageinfo_s>/static-assets/item/images/product/benefit.png</imageinfo_s>
-	</item>	<item>	<title_s>Phí &amp; hạn mức</title_s>
-	<desInfo_html>&lt;div&gt;
+      <imageinfo_s>/static-assets/item/images/product/benefit.png</imageinfo_s>
+    </item>
+    <item>
+      <title_s>Phí &amp; hạn mức</title_s>
+      <desInfo_html>&lt;div&gt;
 &lt;ul&gt;
 &lt;li&gt;Biểu ph&amp;iacute; xem &lt;a href="https://www.agribank.com.vn/wcm/connect/b171fb5b-b97f-4079-be35-1a1bded0714b/BIEU+PHI+DICH+VU+THE+CAP+NHAT+18.8.21.pdf?MOD=AJPERES&amp;amp;CVID=nJxhSBd"&gt;tại đ&amp;acirc;y&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Hạn mức giao dịch xem&amp;nbsp;&lt;a href="https://www.agribank.com.vn/wcm/myconnect/fd92a79f-9160-488a-b920-e954d01275ab/HAN+MUC+GIAO+DICH+CAC+DICH+VU+CAP+NHAT+27.01.2021.pdf?MOD=AJPERES&amp;amp;CONVERT_TO=url&amp;amp;CACHEID=ROOTWORKSPACE-fd92a79f-9160-488a-b920-e954d01275ab-ntxEZuU"&gt;tại đ&amp;acirc;y&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;</desInfo_html>
-	<imageinfo_s>/static-assets/item/images/product/feeandlimit.jpg</imageinfo_s>
-	</item></infoProduct_o>
-	<createdDate>2024-11-14T04:37:53.315Z</createdDate>
-	<createdDate_dt>2024-11-14T04:37:53.315Z</createdDate_dt>
-	<lastModifiedDate>2024-11-15T04:23:37.684Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-15T04:23:37.684Z</lastModifiedDate_dt>
-	<footer_o item-list="true"/>
-	<copyright_html>&lt;p&gt;Copyright &amp;copy; 2021 Your Company | Design:&amp;nbsp;&lt;a href="http://www.templatemo.com/page/1"&gt;Templatemo&lt;/a&gt;&lt;/p&gt;</copyright_html>
-	<socialMedia_o item-list="true">	<item>	<uRL_s>https://www.facebook.com/</uRL_s>
-	<icon_s>fa-facebook</icon_s>
-	<url_s>https://dtsvn.net/</url_s>
-	</item>	<item>	<icon_s>fa-twitter</icon_s>
-	<uRL_s>123</uRL_s>
-	<url_s>https://dtsvn.net/</url_s>
-	</item>	<item>	<icon_s>fa-google-plus</icon_s>
-	<uRL_s>4</uRL_s>
-	<url_s>https://dtsvn.net/</url_s>
-	</item>	<item>	<icon_s>fa-behance</icon_s>
-	<uRL_s>5</uRL_s>
-	<url_s>https://dtsvn.net/</url_s>
-	</item></socialMedia_o>
-	<sections_o item-list="true">	<item inline="true">	<key>f51dc4b4-a481-3d6f-fc83-49b1e9cdabfd</key>
-	<value>Infor Product</value>
-<component id="f51dc4b4-a481-3d6f-fc83-49b1e9cdabfd">
-	<content-type>/component/intro</content-type>
-	<display-template>/templates/web/section/intro.ftl</display-template>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<no-template-required/>
-	<objectGroupId>f51d</objectGroupId>
-	<objectId>f51dc4b4-a481-3d6f-fc83-49b1e9cdabfd</objectId>
-	<file-name>infoproduct.xml</file-name>
-	<folder-name/>
-	<internal-name>Infor Product</internal-name>
-	<navLabel>Infor Product</navLabel>
-	<title_t>Thẻ ghi nợ quốc tế thương hiệu Visa Hạng Chuẩn</title_t>
-	<datePlace_t> Thanh toán toàn cầu, bảo mật, tiện lợi, dễ dùng.</datePlace_t>
-	<placeInNav>true</placeInNav>
-	<backgroundImage_s>/static-assets/images/backgroundbank.jpg</backgroundImage_s>
-	<createdDate>2024-11-15T04:18:34.514Z</createdDate>
-	<createdDate_dt>2024-11-15T04:18:34.514Z</createdDate_dt>
-	<lastModifiedDate>2024-11-15T04:18:34.514Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-15T04:18:34.514Z</lastModifiedDate_dt>
-</component>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/components/component_intro/productinfor.xml</key>
-	<value>productinfor</value>
-	<include>/site/components/component_intro/productinfor.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></sections_o>
+      <imageinfo_s>/static-assets/item/images/product/feeandlimit.jpg</imageinfo_s>
+    </item>
+  </infoProduct_o>
+  <createdDate>2024-11-14T04:37:53.315Z</createdDate>
+  <createdDate_dt>2024-11-14T04:37:53.315Z</createdDate_dt>
+  <lastModifiedDate>2024-11-15T04:23:37.684Z</lastModifiedDate>
+  <lastModifiedDate_dt>2024-11-15T04:30:14.359Z</lastModifiedDate_dt>
+  <footer_o item-list="true"/>
+  <copyright_html>&lt;p&gt;Copyright &amp;copy; 2021 Your Company | Design:&amp;nbsp;&lt;a href="http://www.templatemo.com/page/1"&gt;Templatemo&lt;/a&gt;&lt;/p&gt;</copyright_html>
+  <socialMedia_o item-list="true">
+    <item>
+      <uRL_s>https://www.facebook.com/</uRL_s>
+      <icon_s>fa-facebook</icon_s>
+      <url_s>https://dtsvn.net/</url_s>
+    </item>
+    <item>
+      <icon_s>fa-twitter</icon_s>
+      <uRL_s>123</uRL_s>
+      <url_s>https://dtsvn.net/</url_s>
+    </item>
+    <item>
+      <icon_s>fa-google-plus</icon_s>
+      <uRL_s>4</uRL_s>
+      <url_s>https://dtsvn.net/</url_s>
+    </item>
+    <item>
+      <icon_s>fa-behance</icon_s>
+      <uRL_s>5</uRL_s>
+      <url_s>https://dtsvn.net/</url_s>
+    </item>
+  </socialMedia_o>
+  <sections_o item-list="true">
+    <item>
+      <key>/site/components/component_intro/productinfor.xml</key>
+      <value>productinfor</value>
+      <include>/site/components/component_intro/productinfor.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
+  </sections_o>
 </page>
