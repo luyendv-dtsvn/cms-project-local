@@ -1,1 +1,1 @@
-def result = [:]
+import java.util.List
