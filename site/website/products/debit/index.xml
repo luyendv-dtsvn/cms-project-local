@@ -60,8 +60,8 @@
 	</item></infoProduct_o>
 	<createdDate>2024-11-14T04:37:53.315Z</createdDate>
 	<createdDate_dt>2024-11-14T04:37:53.315Z</createdDate_dt>
-	<lastModifiedDate>2024-11-15T04:13:25.593Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-15T04:13:25.593Z</lastModifiedDate_dt>
+	<lastModifiedDate>2024-11-15T04:17:01.877Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-15T04:17:01.877Z</lastModifiedDate_dt>
 	<footer_o item-list="true"/>
 	<copyright_html>&lt;p&gt;Copyright &amp;copy; 2021 Your Company | Design:&amp;nbsp;&lt;a href="http://www.templatemo.com/page/1"&gt;Templatemo&lt;/a&gt;&lt;/p&gt;</copyright_html>
 	<socialMedia_o item-list="true">	<item>	<uRL_s>https://www.facebook.com/</uRL_s>
@@ -77,4 +77,27 @@
 	<uRL_s>5</uRL_s>
 	<url_s>https://dtsvn.net/</url_s>
 	</item></socialMedia_o>
+	<sections_o item-list="true">	<item inline="true">	<key>f51dc4b4-a481-3d6f-fc83-49b1e9cdabfd</key>
+	<value>Infor Product</value>
+<component id="f51dc4b4-a481-3d6f-fc83-49b1e9cdabfd">
+	<content-type>/component/intro</content-type>
+	<display-template>/templates/web/section/intro.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>f51d</objectGroupId>
+	<objectId>f51dc4b4-a481-3d6f-fc83-49b1e9cdabfd</objectId>
+	<file-name>infoproduct.xml</file-name>
+	<folder-name/>
+	<internal-name>Infor Product</internal-name>
+	<navLabel>Infor Product</navLabel>
+	<title_t>Thẻ ghi nợ quốc tế thương hiệu Visa Hạng Chuẩn</title_t>
+	<datePlace_t> Thanh toán toàn cầu, bảo mật, tiện lợi, dễ dùng.</datePlace_t>
+	<placeInNav>true</placeInNav>
+	<backgroundImage_s>/static-assets/images/backgroundbank.jpg</backgroundImage_s>
+	<createdDate>2024-11-15T04:18:34.514Z</createdDate>
+	<createdDate_dt>2024-11-15T04:18:34.514Z</createdDate_dt>
+	<lastModifiedDate>2024-11-15T04:18:34.514Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-15T04:18:34.514Z</lastModifiedDate_dt>
+</component>
+	</item></sections_o>
 </page>
