@@ -25,6 +25,27 @@
   </head>
   <body>
     <@crafter.body_top />
+    <div class="collapse navbar-collapse">
+      <#if (contentModel.sections_o.item)??>
+        <ul class="nav navbar-nav navbar-right">
+          <#list contentModel.sections_o.item as item>
+            <#if item.component??>
+              <#assign section = item.component />
+            <#else>
+              <#assign section = siteItemService.getSiteItem(item.key) />
+            </#if>
+            <#if (section.placeInNav?? && ("true" == section.placeInNav))>
+              <li>
+                <a href="#${section['internal-name']!''}">
+                  ${section.navLabel!""}
+                </a>
+              </li>
+            </#if>
+          </#list>
+        </ul>
+      </#if>
+    </div>
+
     <section id="${model['internal-name']}" class="parallax-section program-section">
         <div class="container">
             <div class="row">
@@ -100,13 +121,11 @@
               <#assign delay=1 />
               <#list contentModel.socialMedia_o.item as media>
                 <li>
-               
-                
-                   <a href="${media.url_s}" 
-                    class="fa ${media.icon_s} wow fadeInUp"
+                  <a
+                    href="${media.url_s}" class="fa ${media.icon_s} wow fadeInUp"
                     data-wow-delay="${delay}s"
                     target="_blank"
-                  ></a>  
+                  ></a>
                 </li>
                 <#assign delay= (delay + 0.3) />
               </#list>
