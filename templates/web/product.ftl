@@ -81,6 +81,16 @@
         </div>
     </section>
     <@crafter.body_bottom />
+    <!-- =========================
+     SCRIPTS
+============================== -->
+<script src="/static-assets/js/jquery.js"></script>
+<script src="/static-assets/js/bootstrap.min.js"></script>
+<script src="/static-assets/js/jquery.parallax.js"></script>
+<script src="/static-assets/js/owl.carousel.min.js"></script>
+<script src="/static-assets/js/smooth-scroll.min.js"></script>
+<script src="/static-assets/js/wow.min.js"></script>
+<script src="/static-assets/js/custom.js"></script>
   </body>
 </html>
 
