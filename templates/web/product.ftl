@@ -20,8 +20,8 @@
             </#if>
             <span class="image main"><img src="${image}" alt="" /></span>
             <#list contentModel.infoProduct_o.item as item>
-              <div <@studio.iceAttr iceGroup="blog"/>>
-               
+              <div>
+                ${item.title_s}
                 ${item.desInfo_html}
               </div>
               <hr class="major" />
