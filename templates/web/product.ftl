@@ -9,7 +9,7 @@
     <@crafter.body_top />
           <!-- Content -->
           <section>
-            <header class="main" <@studio.iceAttr iceGroup="subject"/>>
+            <header class="main">
               <h1>${contentModel.productname_s!""}</h1>
               <h2>by ${contentModel.description_html!""}</h2>
             </header>
