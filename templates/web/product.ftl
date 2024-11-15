@@ -25,26 +25,20 @@
   </head>
   <body>
     <@crafter.body_top />
-    <div class="collapse navbar-collapse">
-      <#if (contentModel.sections_o.item)??>
-        <ul class="nav navbar-nav navbar-right">
-          <#list contentModel.sections_o.item as item>
-            <#if item.component??>
-              <#assign section = item.component />
-            <#else>
-              <#assign section = siteItemService.getSiteItem(item.key) />
-            </#if>
-            <#if (section.placeInNav?? && ("true" == section.placeInNav))>
-              <li>
-                <a href="#${section['internal-name']!''}">
-                  ${section.navLabel!""}
-                </a>
-              </li>
-            </#if>
-          </#list>
-        </ul>
-      </#if>
-    </div>
+    
+    
+    <#if (contentModel.sections_o.item)??>
+        <@crafter.renderComponentCollection $field="sections_o" />
+        <#else>
+        <section id="contact" class="parallax-section details-section">
+            <div class="container">
+            <div class="row">
+                <h1>This page doesn't have any section included.</h1>
+                <h3>Please edit it on Crafter Studio</h3>
+            </div>
+            </div>
+        </section>
+        </#if>
 
     <section id="${model['internal-name']}" class="parallax-section program-section">
         <div class="container">
