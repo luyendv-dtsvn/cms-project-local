@@ -747,7 +747,7 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>uRL_s</id>
+					<id>url_s</id>
 					<iceId></iceId>
 					<title>URL</title>
 					<description></description>
