@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component id="2d4fa354-6a63-47dd-9dae-e16a3029985b">
+  <content-type>/component/intro</content-type>
+  <display-template>/templates/web/section/intro.ftl</display-template>
+  <internal-name><![CDATA[New Component - Intro]]></internal-name>
+  <file-name>2d4fa354-6a63-47dd-9dae-e16a3029985b.xml</file-name>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <createdDate_dt>2024-11-15T04:26:17.431Z</createdDate_dt>
+  <lastModifiedDate_dt>2024-11-15T04:26:17.431Z</lastModifiedDate_dt>
+  <objectId>2d4fa354-6a63-47dd-9dae-e16a3029985b</objectId>
+  <placeInNav>true</placeInNav>
+  <navLabel>Labosepab licepoba barer higul ron tapanecane cibu.</navLabel>
+  <title_t/>
+  <datePlace_t/>
+  <backgroundImage_s/>
+  <featuredSections_o/>
+</component>
