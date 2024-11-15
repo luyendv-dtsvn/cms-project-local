@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component id="84c3e6b2-4763-4754-b412-5e1d7b280326">
+  <content-type>/component/intro</content-type>
+  <display-template>/templates/web/section/intro.ftl</display-template>
+  <internal-name><![CDATA[New Component - Intro]]></internal-name>
+  <file-name>84c3e6b2-4763-4754-b412-5e1d7b280326.xml</file-name>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <createdDate_dt>2024-11-15T04:26:20.940Z</createdDate_dt>
+  <lastModifiedDate_dt>2024-11-15T04:26:20.940Z</lastModifiedDate_dt>
+  <objectId>84c3e6b2-4763-4754-b412-5e1d7b280326</objectId>
+  <placeInNav>true</placeInNav>
+  <navLabel>Panobunu vilodolir sibirogubo rad lison ga titinop.</navLabel>
+  <title_t/>
+  <datePlace_t/>
+  <backgroundImage_s/>
+  <featuredSections_o/>
+</component>
