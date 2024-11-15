@@ -102,7 +102,7 @@
                 <li>
                
                 
-                   <a
+                   <a href="${media.url_s}" 
                     class="fa ${media.icon_s} wow fadeInUp"
                     data-wow-delay="${delay}s"
                     target="_blank"
