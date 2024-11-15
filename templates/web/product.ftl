@@ -23,7 +23,7 @@
 </head>
     <@crafter.head />
   </head>
-  <body>
+  <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
     <@crafter.body_top />
     
     
