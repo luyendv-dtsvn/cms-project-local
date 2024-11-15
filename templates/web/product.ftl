@@ -92,8 +92,8 @@
     <div class="row">
 
       <div class="col-md-12 col-sm-12 social-spacer">
-        <@crafter.span $field="copyright_t" class="wow fadeInUp" $attributes={'data-wow-delay': '0.6s'}>
-          ${model.copyright_t!''}
+        <@crafter.span $field="copyright_html" class="wow fadeInUp" $attributes={'data-wow-delay': '0.6s'}>
+          ${contentModel.copyright_html!''}
         </@crafter.span>
           <#if (contentModel.socialMedia_o.item)??>
             <ul class="social-icon">
