@@ -16,9 +16,9 @@
 	<backgroundImage_s>/static-assets/images/backgroundbank.jpg</backgroundImage_s>
 	<createdDate>2024-11-15T04:35:59.988Z</createdDate>
 	<createdDate_dt>2024-11-15T04:35:59.988Z</createdDate_dt>
-	<lastModifiedDate>2024-11-15T04:42:36.406Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-15T04:42:36.406Z</lastModifiedDate_dt>
-	<featuredSections_o item-list="true">	<item>	<overwriteLabel_t>Top 1</overwriteLabel_t>
+	<lastModifiedDate>2024-11-15T04:43:50.989Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-15T04:43:50.989Z</lastModifiedDate_dt>
+	<featuredSections_o item-list="true">	<item>	<overwriteLabel_t>Tìm hiểu thêm</overwriteLabel_t>
 	<showOnMobile_b>false</showOnMobile_b>
 	<section_o item-list="true">	<item>	<key>/site/components/section/image.xml</key>
 	<value>image</value>
@@ -26,13 +26,13 @@
 	<disableFlattening>false</disableFlattening>
 	</item></section_o>
 	<buttonStyle_s>btn-info</buttonStyle_s>
-	</item>	<item>	<overwriteLabel_t>Top 2</overwriteLabel_t>
+	</item>	<item>	<overwriteLabel_t>Đăng ký ngay</overwriteLabel_t>
 	<section_o item-list="true">	<item>	<key>/site/components/section/image.xml</key>
 	<value>image</value>
 	<include>/site/components/section/image.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></section_o>
-	<buttonStyle_s>btn-success</buttonStyle_s>
+	<buttonStyle_s>btn-danger</buttonStyle_s>
 	<showOnMobile_b>false</showOnMobile_b>
 	</item></featuredSections_o>
 </component>
