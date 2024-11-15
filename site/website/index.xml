@@ -13,7 +13,7 @@
   <createdDate>2017-01-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2017-05-24T2:11:17.000Z</lastModifiedDate>
-  <lastModifiedDate_dt>2024-11-12T02:54:48.128Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2024-11-15T02:08:30.906Z</lastModifiedDate_dt>
   <siteTitle_t>New Event</siteTitle_t>
   <pageTitle_t>New Event</pageTitle_t>
   <section/>
@@ -65,12 +65,7 @@
       <include>/site/components/section/video.xml</include>
       <disableFlattening>false</disableFlattening>
     </item>
-    <item inline="false">
-      <key>/site/components/9597e75a-6db9-4680-b526-f4cb0edd9c29.xml</key>
-      <value><![CDATA[New Contact Form]]></value>
-      <include>/site/components/9597e75a-6db9-4680-b526-f4cb0edd9c29.xml</include>
-      <disableFlattening>false</disableFlattening>
-    </item>
+
     <item>
       <key>/site/components/section/speakers.xml</key>
       <value>speakers</value>
