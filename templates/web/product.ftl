@@ -85,6 +85,36 @@
     </section>
     <@crafter.body_bottom />
     <!-- =========================
+    FOOTER SECTION
+============================== -->
+<footer>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-12 col-sm-12 social-spacer">
+        <@crafter.span $field="copyright_t" class="wow fadeInUp" $attributes={'data-wow-delay': '0.6s'}>
+          ${model.copyright_t!''}
+        </@crafter.span>
+          <#if (contentModel.socialMedia_o.item)??>
+            <ul class="social-icon">
+              <#assign delay=1 />
+              <#list contentModel.socialMedia_o.item as media>
+                <li>
+                  <a
+                    href="${media.url_s}" class="fa ${media.icon_s} wow fadeInUp"
+                    data-wow-delay="${delay}s"
+                    target="_blank"
+                  ></a>
+                </li>
+                <#assign delay= (delay + 0.3) />
+              </#list>
+            </ul>
+          </#if>
+      </div>
+    </div>
+  </div>
+</footer>
+    <!-- =========================
      SCRIPTS
 ============================== -->
 <script src="/static-assets/js/jquery.js"></script>
