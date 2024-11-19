@@ -36,7 +36,7 @@
                   <widget id="craftercms.components.SiteDashboard"/>
                </configuration>
             </widget>
-            <widget id="craftercms.components.PathNavigator">
+            <widget id="craftercms.components.PathNavigatorTree">
         <configuration>
           <id>Taxonomy</id>
           <label>Taxonomy</label>
