@@ -37,15 +37,6 @@
                </configuration>
             </widget>
             <widget id="craftercms.components.PathNavigatorTree">
-        <configuration>
-          <id>Taxonomy</id>
-          <label>Taxonomy</label>
-          <icon id="@mui/icons-material/LocalOfferOutlined"/>
-          <rootPath>/site/taxonomy</rootPath>
-          <locale>en</locale>
-        </configuration>
-      </widget>
-            <widget id="craftercms.components.PathNavigatorTree">
                <configuration>
                   <id>Pages</id>
                   <label>Pages</label>
@@ -103,6 +94,15 @@
       </configuration>
    </widget>
    <widget id="craftercms.components.ICEToolsPanel">
+                   <widget id="craftercms.components.PathNavigatorTree">
+        <configuration>
+          <id>Taxonomy</id>
+          <label>Taxonomy</label>
+          <icon id="@mui/icons-material/LocalOfferOutlined"/>
+          <rootPath>/site/taxonomy</rootPath>
+          <locale>en</locale>
+        </configuration>
+      </widget>
       <configuration>
          <widgets>
             <widget id="craftercms.components.PaddingModeSwitchListItem">
