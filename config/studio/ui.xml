@@ -469,7 +469,7 @@
             <tool>
                <title id="words.git" defaultMessage="Git"/>
                <icon id="craftercms.icons.Git"/>
-               <url>git</url>
+               <url>gitt</url>
                <widget id="craftercms.components.GitManagement"/>
             </tool>
             <tool>
