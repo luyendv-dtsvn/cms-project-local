@@ -102,8 +102,7 @@
             <widget id="org.craftercms.sampleSidebarPlugin.components.reactComponent">
              <plugin    id="org.craftercms.plugin.examplesidebar"
                         type="sidebar"
-                        name="react-sample"
-                        file="script.js"/>
+                        name="react-sample"/>
           </widget>
          </widgets>
       </configuration>
