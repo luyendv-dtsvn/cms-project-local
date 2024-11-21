@@ -1,0 +1,24 @@
+installation:
+  - type: preview-app
+    parentXpath: //widget[@id='craftercms.components.ToolsPanel']
+    elementXpath: //plugin[@id='org.craftercms.sampleSidebarPlugin.components.reactComponent']
+    element:
+      name: configuration
+      children:
+      - name: widgets
+        children:
+        - name: widget
+          attributes:
+          - name: id
+            value: org.craftercms.sampleSidebarPlugin.components.reactComponent
+          children:
+          - name: plugin
+            attributes:
+            - name: id
+              value: org.craftercms.plugin.examplesidebar
+            - name: type
+              value: sidebar
+            - name: name
+              value: react-sample
+            - name: file
+              value: index.js
