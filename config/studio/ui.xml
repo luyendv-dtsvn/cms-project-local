@@ -99,6 +99,12 @@
                   <widget id="craftercms.components.EmbeddedSiteTools"/>
                </configuration>
             </widget>
+            <widget id="org.craftercms.sampleSidebarPlugin.components.reactComponent">
+             <plugin    id="org.craftercms.plugin"
+                        type="sidebar"
+                        name="react-sample"
+                        file="index.js"/>
+          </widget>
          </widgets>
       </configuration>
    </widget>
