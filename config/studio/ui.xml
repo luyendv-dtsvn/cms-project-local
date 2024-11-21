@@ -103,7 +103,7 @@
              <plugin    id="org.craftercms.plugin.examplesidebar"
                         type="sidebar"
                         name="react-sample"
-                        file="index.js"/>
+                        file="script.js"/>
           </widget>
          </widgets>
       </configuration>
