@@ -1,0 +1,67 @@
+# This file describes a plugin for use in CrafterCMS
+
+# The version of the format for this file
+descriptorVersion: 2
+
+# Describe the plugin
+plugin:
+  type: site
+  id: org.craftercms.plugin.test
+  name: Project Plugin Example
+  tags:
+    - test
+  version:
+    major: 3
+    minor: 0
+    patch: 1
+  description: A simple example for project plugins
+  documentation: "https://raw.githubusercontent.com/craftercms/site-plugin-example/master/readme.md"
+  website:
+    name: Plugin Example
+    url: https://github.com/craftercms/site-plugins-example
+  media:
+    screenshots:
+      - title: CrafterCMS
+        description: CrafterCMS Example Plugin
+        url: "https://raw.githubusercontent.com/craftercms/site-plugin-example/master/.crafter/screenshots/default.png"
+  developer:
+    company:
+      name: CrafterCMS
+      email: info@craftercms.com
+      url: https://craftercms.com
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  crafterCmsVersions:
+    - major: 4
+      minor: 0
+      patch: 0
+  crafterCmsEditions:
+    - community
+    - enterprise
+  # Option auto-wiring section
+  # installation:
+  installation:
+  - type: preview-app
+    parentXpath: //widget[@id='craftercms.components.ToolsPanel']
+    elementXpath: //plugin[@id='org.craftercms.sampleSidebarPlugin.components.reactComponent']
+    element:
+      name: configuration
+      children:
+      - name: widgets
+        children:
+        - name: widget
+          attributes:
+          - name: id
+            value: org.craftercms.sampleSidebarPlugin.components.reactComponent
+          children:
+          - name: plugin
+            attributes:
+            - name: id
+              value: org.craftercms.plugin.examplesidebar
+            - name: type
+              value: sidebar
+            - name: name
+              value: react-sample
+            - name: file
+              value: index.js
