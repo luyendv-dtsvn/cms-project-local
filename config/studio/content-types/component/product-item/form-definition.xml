@@ -132,7 +132,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>uploadphoto,savephoto</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
