@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/taxonomy</content-type>
+	<display-template>/templates/web/taxonomy.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f24a</objectGroupId>
+	<objectId>f24a2764-f0b6-8e63-b414-bc9f5987d616</objectId>
+	<file-name>f24a2764-f0b6-8e63-b414-bc9f5987d616.xml</file-name>
+	<folder-name/>
+	<internal-name>test 1 </internal-name>
+	<createdDate>2024-11-22T03:42:40.546Z</createdDate>
+	<createdDate_dt>2024-11-22T03:42:40.546Z</createdDate_dt>
+	<lastModifiedDate>2024-11-22T03:42:40.546Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-22T03:42:40.546Z</lastModifiedDate_dt>
+</component>
