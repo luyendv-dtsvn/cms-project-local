@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/product-item</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ab67</objectGroupId>
+	<objectId>ab672354-ef16-83bb-02b1-d1584f11e095</objectId>
+	<information_o item-list="true">	<item>	<title_s>bảo kê cẩn thận</title_s>
+	</item>	<item>	<title_s>Đánh nhau ác</title_s>
+	</item>	<item>	<title_s>chiến lắm không sợ ai</title_s>
+	</item></information_o>
+	<file-name>vay-nong.xml</file-name>
+	<folder-name/>
+	<internal-name>Vay nóng</internal-name>
+	<titlemain_s>Vay nóng</titlemain_s>
+	<loanlimit_s>100</loanlimit_s>
+	<loanlimitunit_s>triệu</loanlimitunit_s>
+	<loanduration_s>3</loanduration_s>
+	<photo_s>/static-assets/images/products/462570295_943877497662825_5950638813074896109_n.jpg</photo_s>
+	<categorylist_o>	<item>	<key>All</key>
+	<value_smv>Tất cả</value_smv>
+	</item>	<item>	<key>kinhDoanh</key>
+	<value_smv>Vay kinh doanh</value_smv>
+	</item></categorylist_o>
+	<createdDate>2024-11-22T04:33:27.847Z</createdDate>
+	<createdDate_dt>2024-11-22T04:33:27.847Z</createdDate_dt>
+	<lastModifiedDate>2024-11-22T04:33:27.847Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-22T04:33:27.847Z</lastModifiedDate_dt>
+</component>
