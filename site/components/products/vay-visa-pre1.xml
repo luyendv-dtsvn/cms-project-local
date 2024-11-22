@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/product-item</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f929</objectGroupId>
+	<objectId>f9290a1a-5f17-7751-08a1-8a65beb1f32c</objectId>
+	<file-name>vay-visa-pre1.xml</file-name>
+	<folder-name/>
+	<internal-name>vay Visa pre1</internal-name>
+	<titlemain_s>vay Visa</titlemain_s>
+	<loanlimit_s>30</loanlimit_s>
+	<loanlimitunit_s>Triệu</loanlimitunit_s>
+	<loanduration_s>36</loanduration_s>
+	<photo_s>/static-assets/images/products/462584471_1307359750422551_2534006030658646209_n.jpg</photo_s>
+	<categorylist_o>	<item>	<key>All</key>
+	<value_smv>Tất cả</value_smv>
+	</item>	<item>	<key>tieuDung</key>
+	<value_smv>Vay tiêu dùng</value_smv>
+	</item></categorylist_o>
+	<createdDate>2024-11-22T04:25:04.422Z</createdDate>
+	<createdDate_dt>2024-11-22T04:25:04.422Z</createdDate_dt>
+	<lastModifiedDate>2024-11-22T04:25:04.422Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-22T04:25:04.422Z</lastModifiedDate_dt>
+</component>
