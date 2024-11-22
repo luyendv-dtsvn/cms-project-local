@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-blog</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>94a1</objectGroupId>
+	<objectId>94a16b21-dfcb-edbf-13b6-bdee6c6cc134</objectId>
+	<file-name>94a16b21-dfcb-edbf-13b6-bdee6c6cc134.xml</file-name>
+	<folder-name/>
+	<internal-name>TIN VỀ AGRIBANK</internal-name>
+	<categogies_s>TIN VỀ AGRIBANK</categogies_s>
+	<image_s>/static-assets/image.png</image_s>
+	<mt_t>Agribank dành 2,6 tỷ đồng tặng Tân sinh viên 2024</mt_t>
+	<createdDate>2024-11-22T07:39:24.735Z</createdDate>
+	<createdDate_dt>2024-11-22T07:39:24.735Z</createdDate_dt>
+	<lastModifiedDate>2024-11-22T07:39:24.735Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-22T07:39:24.735Z</lastModifiedDate_dt>
+</component>
