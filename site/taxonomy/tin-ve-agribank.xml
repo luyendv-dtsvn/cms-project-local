@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5250</objectGroupId>
+	<objectId>5250f965-097a-6129-1091-a1aef64e2ef4</objectId>
+	<items item-list="true">	<item>	<key>TIN VỀ AGRIBANK</key>
+	<value>TIN VỀ AGRIBANK</value>
+	</item></items>
+	<internal-name>TIN VỀ AGRIBANK</internal-name>
+	<file-name>tin-ve-agribank.xml</file-name>
+	<folder-name/>
+	<createdDate>2024-11-22T07:46:48.295Z</createdDate>
+	<createdDate_dt>2024-11-22T07:46:48.295Z</createdDate_dt>
+	<lastModifiedDate>2024-11-22T07:46:48.295Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-22T07:46:48.295Z</lastModifiedDate_dt>
+</component>
