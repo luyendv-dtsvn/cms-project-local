@@ -63,6 +63,15 @@
                   <locale>en</locale>
                 </configuration>
             </widget>
+            <widget id="craftercms.components.PathNavigator">
+                    <configuration>
+                        <id>Items</id>
+                        <label>Items</label>
+                        <icon id="@mui/icons-material/LocalOfferOutlined"/>
+                        <rootPath>/site/items</rootPath>
+                        <locale>en</locale>
+                    </configuration>
+                </widget>
             <widget id="craftercms.components.PathNavigatorTree">
                <configuration>
                   <id>StaticAssets</id>
