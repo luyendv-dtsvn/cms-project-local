@@ -100,7 +100,7 @@
                </configuration>
             </widget>
             <widget id="org.craftercms.sampleSidebarPlugin.components.reactComponent">
-             <plugin    id="org.craftercms.plugin.examplesidebar"
+             <plugin    id="org.craftercms.plugin"
                         type="sidebar"
                         name="react-sample"
                         file="index.js"/>
