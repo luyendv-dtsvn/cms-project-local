@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d72a</objectGroupId>
+	<objectId>d72ab067-9015-7eeb-191b-c43dd46921b8</objectId>
+	<items item-list="true">	<item>	<key>TÀI CHÍNH NGÂN HÀNG</key>
+	<value>TÀI CHÍNH NGÂN HÀNG</value>
+	</item></items>
+	<file-name>tai-chinh-ngan-hang.xml</file-name>
+	<folder-name/>
+	<internal-name>TÀI CHÍNH NGÂN HÀNG</internal-name>
+	<createdDate>2024-11-22T07:48:16.535Z</createdDate>
+	<createdDate_dt>2024-11-22T07:48:16.535Z</createdDate_dt>
+	<lastModifiedDate>2024-11-22T07:48:16.535Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-22T07:48:16.535Z</lastModifiedDate_dt>
+</component>
