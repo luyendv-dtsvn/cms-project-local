@@ -1,4 +1,4 @@
-<content-type name="/taxonomy" is-wcm-type="true">
+<content-type name="/component/taxonomy" is-wcm-type="true">
 	<label>taxonomy</label>
 	<form>/component/taxonomy</form>
 	<form-path>simple</form-path>
