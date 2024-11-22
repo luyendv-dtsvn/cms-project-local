@@ -1,3 +1,4 @@
+Tệp mô tả plugin mẫu
 # This file describes a plugin for use in CrafterCMS
 
 # The version of the format for this file
@@ -42,29 +43,29 @@ plugin:
   # Option auto-wiring section
   # installation:
   installation:
-  - type: preview-app
-    parentXpath: //widget[@id='craftercms.components.ToolsPanel']
-    elementXpath: //plugin[@id='org.craftercms.sampleSidebarPlugin.components.reactComponent']
-    element:
-      name: configuration
-      children:
-      - name: widgets
-        children:
-        - name: widget
-          attributes:
-          - name: id
-            value: org.craftercms.sampleSidebarPlugin.components.reactComponent
-          children:
-          - name: plugin
-            attributes:
-            - name: id
-              value: org.craftercms.plugin.examplesidebar
-            - name: type
-              value: sidebar
-            - name: name
-              value: react-sample
-            - name: file
-              value: index.js
+ - type: preview-app
+   parentXpath: //widget[@id='craftercms.components.ToolsPanel']
+   elementXpath: //plugin[@id='org.craftercms.sampleComponentLibraryPlugin.components.reactComponent']
+   element:
+     name: configuration
+     children:
+     - name: widgets
+       children:
+       - name: widget
+         attributes:
+         - name: id
+           value: org.craftercms.sampleComponentLibraryPlugin.components.reactComponent
+         children:
+         - name: plugin
+           attributes:
+           - name: id
+             value: org.craftercms.plugin.sidebar
+           - name: type
+             value: sidebar
+           - name: name
+             value: react-sample
+           - name: file
+             value: index.modern.js
 
 
 
