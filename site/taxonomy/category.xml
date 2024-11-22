@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ab61</objectGroupId>
+	<objectId>ab61758a-f538-f1d5-1202-8b4f6c1e2889</objectId>
+	<items item-list="true">	<item>	<key>Tất cả</key>
+	<value>All</value>
+	</item>	<item>	<key>Vay tiêu dùng</key>
+	<value>tieuDung</value>
+	</item>	<item>	<key>Vay phục vụ nông nghiệp</key>
+	<value>nôngNghiep</value>
+	</item>	<item>	<key>Vay kinh doanh</key>
+	<value>kinhDoanh</value>
+	</item></items>
+	<internal-name>Vay cá nhân</internal-name>
+	<file-name>category.xml</file-name>
+	<folder-name/>
+	<createdDate>2024-11-22T04:09:08.995Z</createdDate>
+	<createdDate_dt>2024-11-22T04:09:08.995Z</createdDate_dt>
+	<lastModifiedDate>2024-11-22T04:09:08.995Z</lastModifiedDate>
+	<lastModifiedDate_dt>2024-11-22T04:09:08.995Z</lastModifiedDate_dt>
+</component>
