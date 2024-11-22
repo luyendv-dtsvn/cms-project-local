@@ -54,6 +54,15 @@
                   <locale>en</locale>
                </configuration>
             </widget>
+            <widget id="craftercms.components.PathNavigator">
+                <configuration>
+                  <id>Taxonomy</id>
+                  <label>Taxonomy</label>
+                  <icon id="@mui/icons-material/LocalOfferOutlined"/>
+                  <rootPath>/site/taxonomy</rootPath>
+                  <locale>en</locale>
+                </configuration>
+            </widget>
             <widget id="craftercms.components.PathNavigatorTree">
                <configuration>
                   <id>StaticAssets</id>
@@ -99,6 +108,12 @@
                   <widget id="craftercms.components.EmbeddedSiteTools"/>
                </configuration>
             </widget>
+            <widget id="org.craftercms.sampleSidebarPlugin.components.reactComponent">
+             <plugin    id="org.craftercms.plugin.examplesidebar"
+                        type="sidebar"
+                        name="react-sample"
+                        file="index.js"/>
+          </widget>
          </widgets>
       </configuration>
    </widget>
