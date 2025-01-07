@@ -13,9 +13,11 @@
         <#-- Kiểm tra xem group buttonleft_o có tồn tại và có item hay không -->
         <#if contentModel.buttonleft_o.item?? && contentModel.buttonleft_o.item?has_content>
             <#list contentModel.buttonleft_o.item as leftBtn>
-                <a href="#${leftBtn.link_left_s!''}" class="body-12">
+            <div>
+            <a href="${leftBtn.link_left_s!''}" class="body-12">
                     ${leftBtn.label_left_s!''}
                 </a>
+            </div>
             </#list>
         </#if>
 
