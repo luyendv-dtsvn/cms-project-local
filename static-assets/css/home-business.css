@@ -1,0 +1,601 @@
+.home-business-background-section {
+    position: relative;
+    overflow: hidden;
+    /* Đảm bảo không có phần thừa */
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: url('../images/vanhoa-vaylist-vaydetail/home-business-background.png') lightgray 50% / cover no-repeat;
+    background-size: cover;
+}
+
+.home-financial-institution-section {
+    position: relative;
+    overflow: hidden;
+    /* Đảm bảo không có phần thừa */
+    height: 100svh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: url('../images/home/startwithagri.png') lightgray 50% / cover no-repeat;
+    background-size: cover;
+}
+
+.home-business-background-containers {
+    width: 100%;
+    padding: 5%;
+    color: white;
+}
+
+.home-business-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.home-business-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Đảm bảo ảnh hiển thị toàn bộ */
+}
+
+/* .home-business-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+  } */
+
+.home-business-background-text {
+    gap: 149px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-business-background-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.home-business-background-content-heading {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #eaeaea;
+    justify-content: space-between;
+}
+
+.home-business-background-heading-tab {
+    display: flex;
+    padding: 14px 0px;
+    padding-left: 48px;
+    align-items: center;
+    gap: 10px;
+}
+
+.home-business-background-mobile {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 14px;
+}
+
+
+
+.home-business-background-heading-tab span {
+    padding-right: 10px;
+}
+
+.home-business-background-tab {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.home-business-background-heading-right {
+    display: flex;
+}
+
+.home-business-background-heading-arrow {
+    border-left: 1px solid #eaeaea;
+    padding: 24px;
+}
+
+.home-business-background-titlte {
+    display: flex;
+    padding: 28px 48px 48px 48px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-right: 1px solid #eaeaea;
+}
+
+.home-business-background-titlte button {
+    display: flex;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid rgba(170, 29, 64, 0.12);
+    background: rgba(175, 11, 53, 0.06);
+    gap: 6px;
+    z-index: 9999;
+}
+
+.home-business-item-card {
+    padding: 16px;
+    border-left: 1px solid #EBEBEB;
+    flex: 1;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.home-business-item-content {
+    flex: 1;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home-business-item-text {
+    display: flex;
+    padding: 4px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    padding-bottom: 60px;
+}
+
+.custom-next-business,
+.custom-prev-business {
+    border-left: 1px solid #DEDEDE;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 29px 24px;
+}
+
+.custom-next-business:hover,
+.custom-prev-business:hover {
+    /* fill: #fff; */
+    background: var(--red-1, #AF0B35);
+}
+
+.custom-next-business:hover path,
+.custom-prev-business:hover path {
+    fill: #fff;
+}
+
+.custom-next-business:active,
+.custom-prev-business:active {
+    background: #fff;
+    border: 1px solid var(--Linear-1, #9E2B47);
+}
+
+.home-business-list-arrow-button {
+    display: none;
+    width: 100%;
+    height: 78px;
+    border-top: 1px solid #eaeaea;
+}
+
+.home-business-background-titlte img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* home financial institution page */
+.home-financial-institution-text {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 32px;
+    flex-direction: column;
+}
+
+.provided-services-section {
+    width: 100%;
+    padding: 50px 5%;
+    display: flex;
+    align-items: center;
+}
+
+.provided-services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.provided-services-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    max-width: 381px;
+}
+
+.provided-services-title h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.provided-services-item {
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.provided-services-item:first-child {
+    padding-left: 0;
+}
+
+.provided-services-item:last-child {
+    padding-right: 0;
+}
+
+.provided-services-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.provided-services-item-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 14px;
+}
+
+.provided-services-item-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+}
+
+
+.banking-finance-title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eaeaea;
+    padding-top: 50px;
+}
+
+
+
+.banking-finance-card {
+    align-self: stretch;
+    gap: 34px;
+    /* padding-right: 20px;
+    padding-bottom: 20px; */
+    padding-bottom: 10px;
+}
+
+.home-financial-institution-content {
+    width: fit-content;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 48px;
+}
+
+.home-financial-institution-line-pc {
+    display: flex;
+}
+
+.home-financial-institution-line-mobile {
+    display: none;
+}
+
+.home-business-background-img-pc {
+    display: flex;
+}
+
+.home-business-background-img-mobile {
+    display: none;
+}
+
+.home-financial-institution-item {
+    min-width: 140px;
+}
+
+.home-credit-rating-content {
+    padding: 40px 5%;
+}
+
+.home-credit-rating-brand {
+    display: flex;
+    gap: 11px;
+}
+
+.home-credit-rating-brand-item {
+    position: relative;
+    gap: 26px;
+    width: 212px;
+}
+
+.home-credit-rating-brand img {
+    position: static;
+}
+
+
+.home-business-background-text-title::before {
+    width: 964px;
+    height: 483px;
+    flex-shrink: 0;
+    border-radius: 964px;
+    background: rgba(0, 0, 0, 0.60);
+    filter: blur(52px);
+}
+
+.home-business-background-text-title span {
+    margin-bottom: 14px;
+}
+
+.line-v {
+    height: auto;
+}
+
+.line-h {
+    background: rgba(255, 255, 255, 0.13);
+}
+
+.home-business-header-pay .content-top-menu {
+    min-width: 116px;
+}
+
+.home-business-item-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-agri-start .btn-primary {
+    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+  }
+
+.section-agri-start .btn-primary:focus,.section-agri-start .btn-primary.focus, .section-agri-start .btn-primary:hover, .section-agri-start .btn-primary:not(:disabled):not(.disabled):active  {
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: none;
+    border-radius: 4px;
+    border: 1px solid var(--red-1, #AF0B35);
+}
+
+.section-agri-start .line-v {
+    height: 44px;
+    background: #EBEBEB;
+}
+
+@media (max-width: 1100px) {
+    .home-business-list-arrow-button {
+        display: flex;
+    }
+}
+.section-agri-start .mt-n2, .my-n2 {
+    margin-top: 0 !important;
+}
+
+.section-agri-start .nav-tabs .nav-link {
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.section-agri-start .nav-tabs .nav-link.active {
+    color: #fff;
+    background: var(--Linear-2, linear-gradient(270deg, #AF0B35 0%, #C93259 100%));
+}
+
+.section-agri-start .nav-tabs .nav-link.active svg path {
+    stroke: #fff;
+}
+
+.section-agri-start .nav-tabs .nav-item {
+    padding-right: 0;
+}
+
+.section-agri-start .nav-tabs .nav-link:after {
+    background: none;
+}
+
+.section-agri-start .nav-tabs .nav-link.active svg {
+    fill: none;
+}
+
+.home-business-background-mobile .tabs-mobile-answer-button span {
+    gap: 5px;
+}
+
+.home-business-background-mobile .tabs-mobile-answer-button span svg path {
+    stroke: #AF0B35;
+}
+
+.home-business-background-mobile ul li a {
+    gap: 5px;
+}
+
+@media (max-width: 1024px) {
+    .home-business-background-heading-tab {
+        gap: 5px;
+        padding-left: 14px;
+    }
+
+    .home-business-background-heading-tab span {
+        padding-right: 5px;
+    }
+
+    .home-business-background-tab {
+        gap: 5px;
+    }
+
+
+
+    .provided-services-item-text {
+        padding: 38px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .home-business-background-titlte {
+        padding: 24px;
+    }
+
+    .home-financial-institution-line-pc {
+        display: none;
+    }
+
+    .home-financial-institution-line-mobile {
+        display: flex;
+    }
+
+    .provided-services-item-text {
+        padding: 35px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .home-business-item-card {
+        border-left: none;
+    }
+
+    .provided-services-item {
+        padding: 10px 0px;
+    }
+
+    .home-financial-institution-section {
+        height: 100svh;
+    }
+
+    .home-business-background-containers {
+        padding: 35px 5%;
+    }
+
+    .home-business-background-text {
+        gap: 24px;
+    }
+
+    .home-business-background-heading-tab {
+        display: none;
+    }
+
+    .home-business-background-mobile {
+        display: flex;
+    }
+
+    .home-financial-institution-line-pc {
+        display: none;
+    }
+
+    .home-business-background-img-pc {
+        display: none;
+    }
+
+    .home-business-background-img-mobile {
+        display: flex;
+    }
+
+
+    .custom-next-business,
+    .custom-prev-business {
+        border: 1px solid #DEDEDE;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .home-business-list-arrow-button {
+        height: 50px;
+    }
+
+    .home-business-background-titlte {
+        padding: 14px;
+        gap: 6em;
+        border-bottom: 1px solid #eaeaea;
+        border-right: none;
+    }
+
+    .home-financial-institution-content {
+        padding-right: 0;
+        gap: 20px;
+    }
+
+    .home-credit-rating-brand-item {
+        width: 150px;
+    }
+
+    .provided-services-item-text {
+        padding: 48px;
+    }
+
+    .home-business-header-pay .content-top-menu img {
+        margin-bottom: 7.5%;
+    }
+
+    .home-business-item-content {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-business-header-pay .content-top-menu img {
+        width: 28px;
+        height: 28px;
+        margin-bottom: 8.5%;
+    }
+}
+
+@media (max-width: 375px) {
+    .home-financial-institution-content {
+        gap: 15px;
+    }
+
+    .home-credit-rating-brand {
+        gap: 8px;
+    }
+
+    .home-credit-rating-brand-item {
+        width: 110px;
+    }
+
+    .provided-services-item-text {
+        padding: 32px;
+    }
+}
