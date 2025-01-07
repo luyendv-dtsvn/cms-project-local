@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-header</content-type>
+	<display-template>/templates/web/preheader.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>07e1</objectGroupId>
+	<objectId>07e1ee0a-3b31-ab2d-22d4-e15a2657ddb2</objectId>
+	<file-name>header-top.xml</file-name>
+	<folder-name/>
+	<internal-name>preheader</internal-name>
+	<address_url_s>/address-test</address_url_s>
+	<language_url_s>/language-test</language_url_s>
+	<address_icon_s>/static-assets/mappin.png</address_icon_s>
+	<language_icon_s>/static-assets/frame.png</language_icon_s>
+	<buttonleft_o item-list="true">	<item>	<label_left_s>cá nhân</label_left_s>
+	<link_left_s>/ca-nhan</link_left_s>
+	</item>	<item>	<label_left_s>Doanh nghiệp</label_left_s>
+	<link_left_s>/doanh-nghiep</link_left_s>
+	</item>	<item>	<label_left_s>Định chế tài chính</label_left_s>
+	<link_left_s>/dinh-che-tai-chinh</link_left_s>
+	</item></buttonleft_o>
+	<buttonright_o item-list="true">	<item>	<label_right_s>về agribank</label_right_s>
+	<link_right_s>/ve-agribank</link_right_s>
+	</item>	<item>	<label_right_s>Tin tức</label_right_s>
+	<link_right_s>/tin-tuc</link_right_s>
+	</item>	<item>	<label_right_s>Tuyển dụng</label_right_s>
+	<link_right_s>/tuyen-dung</link_right_s>
+	</item>	<item>	<label_right_s>Hỗ trợ</label_right_s>
+	<link_right_s>/ho-tro</link_right_s>
+	</item></buttonright_o>
+	<createdDate>2025-01-07T10:21:43.047Z</createdDate>
+	<createdDate_dt>2025-01-07T10:21:43.047Z</createdDate_dt>
+	<lastModifiedDate>2025-01-07T10:21:43.047Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-01-07T10:21:43.047Z</lastModifiedDate_dt>
+</component>
