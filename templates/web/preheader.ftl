@@ -2,7 +2,7 @@
 
 <@crafter.header id="header">
 <link rel="stylesheet" href="/static-assets/css/font-awesome.css">
-<link rel="stylesheet" href="/static-assets/cssdashlite.css">
+<link rel="stylesheet" href="/static-assets/css/dashlite.css">
 <link rel="stylesheet" href="/static-assets/css/home-user.css">
 <link rel="stylesheet" href="/static-assets/css/common.css">
 <link rel="stylesheet" href="/static-assets/css/navmenu.css">
