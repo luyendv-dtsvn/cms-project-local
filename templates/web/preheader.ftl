@@ -1,6 +1,12 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <@crafter.header id="header">
+<link rel="stylesheet" href="/static-assets/css/font-awesome.css">
+<link rel="stylesheet" href="/static-assets/cssdashlite.css">
+<link rel="stylesheet" href="/static-assets/css/home-user.css">
+<link rel="stylesheet" href="/static-assets/css/common.css">
+<link rel="stylesheet" href="/static-assets/css/navmenu.css">
+<link rel="stylesheet" href="/static-assets/css/agri.css">
 <div class="top">
   <div class="top-user">
     <div class="top-user-left ">
