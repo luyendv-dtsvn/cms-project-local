@@ -28,7 +28,7 @@
         <#if contentModel.buttonright_o.item?? && contentModel.buttonright_o.item?has_content>
             <#list contentModel.buttonright_o.item as rightBtn>
             <div>
-            <a href="#${rightBtn.link_right_s!''}" class="body-12">
+            <a href="${rightBtn.link_right_s!''}" class="body-12">
                     ${rightBtn.label_right_s!''}
                 </a>
             </div>
