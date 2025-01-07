@@ -4,6 +4,17 @@
 <div class="top">
   <div class="top-user">
     <div class="top-user-left ">
+        <#assign currentIndex=0/>
+        <#list contentModel.infoProduct_o.item as info>
+            <#assign currentIndex = (currentIndex + 1) />
+            <li <#if currentIndex==1>class="active"</#if>>
+                <a href="#info${currentIndex}" aria-controls="${info.title_s}"
+                   role="tab" data-toggle="tab">
+                    ${info.title_s}
+                </a>
+            </li>
+        </#list>
+    
       <div class="body-12"><a href="#">Cá nhân</a></div>
       <div class="active body-12"><a href="#">Doanh nghiệp</a></div>
       <div class="body-12"><a href="#">Định chế tài chính</a></div>
@@ -25,7 +36,7 @@
       </div>
       <div class="line-v"></div>
       <div>
-        <a href="#infor">
+        <a href="${contentModel.language_url_s!"#"}">
             <@crafter.img $field="language_icon_s" src=(contentModel.language_icon_s!"") border=0 />
         </a>
       </div>
