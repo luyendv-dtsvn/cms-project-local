@@ -14,7 +14,7 @@
         <#if contentModel.buttonleft_o.item?? && contentModel.buttonleft_o.item?has_content>
             <#list contentModel.buttonleft_o.item as leftBtn>
             <div>
-            <a href="${leftBtn.link_left_s!''}" class="body-12">
+            <a href="${leftBtn.link_left_s!''}" class="body-12 ">
                     ${leftBtn.label_left_s!''}
                 </a>
             </div>
@@ -27,9 +27,11 @@
        <#-- Kiểm tra xem group buttonright_o có tồn tại và có item hay không -->
         <#if contentModel.buttonright_o.item?? && contentModel.buttonright_o.item?has_content>
             <#list contentModel.buttonright_o.item as rightBtn>
-                <a href="#${rightBtn.link_right_s!''}" class="body-12">
+            <div>
+            <a href="#${rightBtn.link_right_s!''}" class="body-12">
                     ${rightBtn.label_right_s!''}
                 </a>
+            </div>
             </#list>
         </#if>
       </div>
