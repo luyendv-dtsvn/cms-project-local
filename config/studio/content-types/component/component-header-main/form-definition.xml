@@ -1,98 +1,336 @@
 <form>
-<title>Component - header - main</title>
-<description></description>
-<content-type>/component/component-header-main</content-type>
-<objectType>component</objectType>
-<quickCreate>false</quickCreate>
-<quickCreatePath></quickCreatePath>
-<properties>
-<property>
-<name>content-type</name>
-<label>Content Type</label>
-<value>/component/component-header-main</value>
-<type>string</type>
-</property>
-<property>
-<name>display-template</name>
-<label>Display Template</label>
-<value></value>
-<type>template</type>
-</property>
-<property>
-<name>no-template-required</name>
-<label>No Template Required</label>
-<value></value>
-<type>boolean</type>
-</property>
-<property>
-<name>merge-strategy</name>
-<label>Merge Strategy</label>
-<value>inherit-levels</value>
-<type>string</type>
-</property>
-</properties>
-<sections>
-<section>
-<title>Component - header - main Properties</title>
-<description></description>
-<defaultOpen>true</defaultOpen>
-<fields>
-<field>
-<type>auto-filename</type>
-<id>file-name</id>
-<iceId></iceId>
-<title>Component ID</title>
-<description></description>
-<defaultValue></defaultValue>
-<help></help>
-<properties>
-<property>
-<name>size</name>
-<value>50</value>
-<type>int</type>
-</property>
-<property>
-<name>maxlength</name>
-<value>50</value>
-<type>int</type>
-</property>
-<property>
-<name>readonly</name>
-<value></value>
-<type>boolean</type>
-</property>
-</properties>
-<constraints>
-</constraints>
-</field>
-<field>
-<type>input</type>
-<id>internal-name</id>
-<iceId></iceId>
-<title>Internal Name</title>
-<description></description>
-<defaultValue></defaultValue>
-<help></help>
-<properties>
-<property>
-<name>size</name>
-<value>50</value>
-<type>int</type>
-</property>
-<property>
-<name>maxlength</name>
-<value>50</value>
-<type>int</type>
-</property>
-</properties>
-<constraints>
-<constraint>
-<name>required</name>
-<value>true</value>
-<type>boolean</type>
-</constraint>
-</constraints>
-</field></fields>
-</section>
-</sections>
+	<title>Component - header - main</title>
+	<description></description>
+	<objectType>component</objectType>
+	<content-type>/component/component-header-main</content-type>
+	<imageThumbnail></imageThumbnail>
+	<quickCreate>false</quickCreate>
+	<quickCreatePath></quickCreatePath>
+	<properties>		<property>
+			<name>display-template</name>
+			<label>Display Template</label>
+			<value></value>
+			<type>template</type>
+		</property>
+		<property>
+			<name>no-template-required</name>
+			<label>No Template Required</label>
+			<value>true</value>
+			<type>boolean</type>
+		</property>
+		<property>
+			<name>merge-strategy</name>
+			<label>Merge Strategy</label>
+			<value>inherit-levels</value>
+			<type>string</type>
+		</property>
+	</properties>
+	<sections>		<section>
+			<title>Component - header - main Properties</title>
+			<description></description>
+			<defaultOpen>true</defaultOpen>
+			<fields>
+				<field>
+					<type>file-name</type>
+					<id>file-name</id>
+					<iceId></iceId>
+					<title>Component ID</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>allowEditWithoutWarning</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>internal-name</id>
+					<iceId></iceId>
+					<title>Internal Name</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>image-picker</type>
+					<id>logo_web_s</id>
+					<iceId></iceId>
+					<title>logo-web</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>width</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>height</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>thumbnailWidth</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>thumbnailHeight</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>imageManager</name>
+							<value>uploadphoto,selectphoto</value>
+							<type>datasource:image</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>url_logo_web_s</id>
+					<iceId></iceId>
+					<title>url-logo-web</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>hotline_label_t</id>
+					<iceId></iceId>
+					<title>hotline</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>hotline_url_s</id>
+					<iceId></iceId>
+					<title>hotline-url</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+			</fields>
+		</section>
+	</sections>
+	<datasources>				<datasource>
+					<type>img-desktop-upload</type>
+					<id>uploadphoto</id>
+					<title>upload photo</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/images/</value>
+								<type>content-path-input</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>img-repository-upload</type>
+					<id>selectphoto</id>
+					<title>select photo</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/images/</value>
+								<type>content-path-input</type>
+						</property>
+						<property>
+							<name>useSearch</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
 </form>
