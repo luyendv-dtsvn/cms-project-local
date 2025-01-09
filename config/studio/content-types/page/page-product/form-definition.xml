@@ -988,7 +988,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/intro,/component/programs,/component/rte</value>
+							<value>/component/intro,/component/programs,/component/rte,/component/component-header</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
