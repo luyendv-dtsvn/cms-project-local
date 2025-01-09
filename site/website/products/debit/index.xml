@@ -13,7 +13,11 @@
 	<folder-name>debit</folder-name>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
-	<header_o item-list="true"/>
+	<header_o item-list="true">	<item>	<key>/site/components/header-top.xml</key>
+	<value>preheader</value>
+	<include>/site/components/header-top.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></header_o>
 	<imageAvatar_s>/static-assets/item/images/product/debit.png</imageAvatar_s>
 	<description_html>&lt;ul&gt;
 &lt;li&gt;Giao dịch tại h&amp;agrave;ng triệu điểm chấp nhận thẻ ATM/POS c&amp;oacute; logo MasterCard tr&amp;ecirc;n to&amp;agrave;n cầu.&lt;/li&gt;
@@ -56,8 +60,8 @@
 	</item></infoProduct_o>
 	<createdDate>2024-11-14T04:37:53.315Z</createdDate>
 	<createdDate_dt>2024-11-14T04:37:53.315Z</createdDate_dt>
-	<lastModifiedDate>2024-11-15T04:45:49.125Z</lastModifiedDate>
-	<lastModifiedDate_dt>2024-11-15T04:45:49.125Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-01-09T02:53:43.962Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-01-09T02:53:43.962Z</lastModifiedDate_dt>
 	<footer_o item-list="true"/>
 	<copyright_html>&lt;p&gt;Copyright &amp;copy; 2021 Your Company | Design:&amp;nbsp;&lt;a href="http://www.templatemo.com/page/1"&gt;Templatemo&lt;/a&gt;&lt;/p&gt;</copyright_html>
 	<socialMedia_o item-list="true">	<item>	<uRL_s>https://www.facebook.com/</uRL_s>
