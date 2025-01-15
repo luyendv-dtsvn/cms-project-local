@@ -757,7 +757,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value></value>
+							<value>/component/header-level-2</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
