@@ -1,4 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
+<#list contentModel.VARIABLE_NAME.item as module>
+        <@renderComponent component=module />
+</#list>
 
 <@crafter.header id="header">
   <link rel="stylesheet" href="/static-assets/css/font-awesome.css">
@@ -15,15 +18,51 @@
           <div class="menu">
             <div class="top-menu">
               <div class="top-menu-left body-15 h-100">
-              
+                <div class="icon-agri">
+                    <a href="${contentModel.url_logo_web_s!''}">
+                      <@crafter.img $field="logo_web_s" src=(contentModel.logo_web_s!"") border=0 />
+                    </a>
+                </div>
+                <div class="line-v" style="height: 36px;background: rgba(255, 255, 255, 0.20);"></div>
+                <div class="mega-menu h-100">
+                    <div class="ruby-menu-demo-header h-100">
+                      <div class="ruby-wrapper h-100">
+                        <ul class="ruby-menu">
+                            <#if contentModel.list_button_left_o.item?? && contentModel.list_button_left_o.item?has_content>
+                                <#list contentModel.list_button_left_o.item as button_left>
+                                    <#if button_left.link_button_left_level_1_s?has_content>
+                                        <li class="ruby-menu-mega-blog ">
+                                            <a href="${button_left.link_button_left_level_1_s!''}" class="body-15">>${button_left.label_button_left_level_1_s!}</a>
+                                        </li>
+                                    <#else>
+                                        <li class="ruby-menu-mega-blog ">
+                                            <a href="#" class="body-15">>${button_left.label_button_left_level_1_s!}</a>
+                                            <div style="" class="">
+                                                <ul class="ruby-menu-mega-blog-nav pb-4 col-3">
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                </ul>
+                                            </div>
+                                            <span class="ruby-dropdown-toggle"></span>
+                                        </li>
+                                    </#if>
+                                </#list>
+                            </#if>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
               </div>
-              
-              
-              
               <div class="top-menu-right">
                 <div class="hot-line">
-                  <a href="${contentModel.hotline_url_s!}" class="regular-15 color-white color-hover-w"><span
-                      class="txt-hl">Hotline:</span>${contentModel.hotline_label_t!}</a>
+                  <a href="${contentModel.hotline_url_s!''}" class="regular-15 color-white color-hover-w">
+                    <span class="txt-hl">Hotline:</span>${contentModel.hotline_label_t!}
+                  </a>
                 </div>
                 <div class="line-v" style="height: 36px;background: rgba(255, 255, 255, 0.20);"></div>
                 <div class="dropdown div-login">
@@ -36,7 +75,7 @@
                       <#if contentModel.list_accounts_o.item?? && contentModel.list_accounts_o.item?has_content>
                         <#list contentModel.list_accounts_o.item as list_accounts>
                           <li class="home-vision-button-dropdown">
-                            <a href="${list_accounts.account_link_s!}" class="tab-pane-answer body-14 "
+                            <a href="${list_accounts.account_link_s!''}" class="tab-pane-answer body-14 "
                               data-tab="tab-agribank-plus">${list_accounts.account_name_s!}</a>
                             <span class="subtitle-12 color-dark-3">${list_accounts.account_text_sub_s!}</span>
                           </li>
