@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-01-16T08:44:04.723Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-01-16T08:44:04.723Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-01-16T08:47:30.433Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-01-16T08:47:30.433Z</lastModifiedDate_dt>
 	<siteTitle_t>New Event</siteTitle_t>
 	<pageTitle_t>New Event</pageTitle_t>
 	<section/>
@@ -65,17 +65,9 @@
 	<value>venue</value>
 	<include>/site/components/section/venue.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/components/section/sponsors.xml</key>
-	<value>sponsors</value>
-	<include>/site/components/section/sponsors.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/components/section/contact-us.xml</key>
-	<value>contact-us</value>
-	<include>/site/components/section/contact-us.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/components/header-top.xml</key>
+	</item>	<item>	<key>/site/components/section/header-top.xml</key>
 	<value>preheader</value>
-	<include>/site/components/header-top.xml</include>
+	<include>/site/components/section/header-top.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></sections_o>
 	<copyright_html/>
