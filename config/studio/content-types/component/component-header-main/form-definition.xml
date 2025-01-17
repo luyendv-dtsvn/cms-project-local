@@ -687,6 +687,13 @@
 				</field>
 			</fields>
 		</section>
+		<section>
+			<title>Default Section Title 1737081106876</title>
+			<description></description>
+			<defaultOpen>false</defaultOpen>
+			<fields>
+			</fields>
+		</section>
 	</sections>
 	<datasources>				<datasource>
 					<type>img-desktop-upload</type>
@@ -757,7 +764,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/header-level-2</value>
+							<value>/component/header-level-2,/component/overview-video,/component/sponsors</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
