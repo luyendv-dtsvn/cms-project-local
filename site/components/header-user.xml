@@ -26,150 +26,13 @@
 	</item></list_accounts_o>
 	<list_button_left_o item-list="true">	<item>	<label_button_left_level_1_s>Sản phẩm dịch vụ</label_button_left_level_1_s>
 	<link_button_left_level_1_s/>
-	<section_header_level_2_o item-list="true">	<item inline="true">	<key>6a69f877-e85c-caa2-4b20-bd299efe6d35</key>
-	<value>Gửi tiền (tiêu đề)</value>
-<component id="6a69f877-e85c-caa2-4b20-bd299efe6d35">
-	<content-type>/component/header-level-2</content-type>
-	<display-template>/templates/web/header-main.ftl</display-template>
-	<no-template-required>true</no-template-required>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>6a69</objectGroupId>
-	<objectId>6a69f877-e85c-caa2-4b20-bd299efe6d35</objectId>
-	<file-name>gui-tien.xml</file-name>
-	<folder-name/>
-	<internal-name>Gửi tiền (tiêu đề)</internal-name>
-	<name_Header_Slim_s>Gửi tiền</name_Header_Slim_s>
-	<url_ing_lv2_s>#gui-tien-img-lv-2</url_ing_lv2_s>
-	<title_main_s>Gửi tiền Agribank</title_main_s>
-	<name_product_left_lv2_s>Tiền gửi</name_product_left_lv2_s>
-	<description_product_left_lv2_s>Đa dạng kỳ hạn gửi và hình thức lãi cho  khách hds</description_product_left_lv2_s>
-	<name_product_right_lv2_s>Tiền gửi tiết kiệm</name_product_right_lv2_s>
-	<description_product_right_lv2_s>Tiết kiệm an toàn, sinh lời ổn định với lãi suất  </description_product_right_lv2_s>
-	<img_level_2_s>/static-assets/images/guitien.png</img_level_2_s>
-	<list_item_header_lv2_o item-list="true">	<item>	<name_item_header_lv2_s>tính khoản tiết kiệm</name_item_header_lv2_s>
-	<icon_item_header_lv2_s>/static-assets/images/calculator.png</icon_item_header_lv2_s>
-	<url_item_header_lv2_s>#tinh-toan-tiet-kiem</url_item_header_lv2_s>
-	</item>	<item>	<name_item_header_lv2_s>lãi suất tiền gửi</name_item_header_lv2_s>
-	<icon_item_header_lv2_s>/static-assets/images/frame.png</icon_item_header_lv2_s>
-	<url_item_header_lv2_s>#lai-suat-tien-gui</url_item_header_lv2_s>
-	</item>	<item>	<name_item_header_lv2_s>Biểu mẫu và biểu phí</name_item_header_lv2_s>
-	<icon_item_header_lv2_s>/static-assets/images/filetext.png</icon_item_header_lv2_s>
-	<url_item_header_lv2_s>#bieu-mau-va-bieu-phi</url_item_header_lv2_s>
-	</item></list_item_header_lv2_o>
-	<list_button_left_o item-list="true">	<item>	<name_button_left_s>Tài khoản thanh toán</name_button_left_s>
-	<url_button_left_s>#tai-khoan-thanh-toan</url_button_left_s>
-	</item>	<item>	<name_button_left_s>Tiền gửi trực tuyến</name_button_left_s>
-	<url_button_left_s>#tien-gui-truc-tuyen</url_button_left_s>
-	</item></list_button_left_o>
-	<list_button_right_o item-list="true">	<item>	<name_button_right_s>Tiết kiệm có kỳ hạn</name_button_right_s>
-	<url_button_right_s>#tiet-kiem-co-ky-han</url_button_right_s>
-	</item>	<item>	<name_button_right_s>Tiền gửi tiết kiệm có kỳ hạn lãi suất thả nổi</name_button_right_s>
-	<url_button_right_s>#tien-gui-tiet-kiem-co-ky-han</url_button_right_s>
-	</item>	<item>	<name_button_right_s>Tiết kiệm gửi góp theo định kỳ</name_button_right_s>
-	<url_button_right_s>#tiet-kiem-gui-gop-theo-dinh-ky</url_button_right_s>
-	</item></list_button_right_o>
-	<createdDate>2025-01-17T08:45:41.033Z</createdDate>
-	<createdDate_dt>2025-01-17T08:45:41.033Z</createdDate_dt>
-	<lastModifiedDate>2025-01-17T08:45:41.033Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-01-17T08:45:41.033Z</lastModifiedDate_dt>
-</component>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item inline="true">	<key>cbc5684c-171c-3f7e-433a-b364f51e6ca5</key>
-	<value>Vay vốn (tiêu đề)</value>
-<component id="cbc5684c-171c-3f7e-433a-b364f51e6ca5">
-	<content-type>/component/header-level-2</content-type>
-	<display-template>/templates/web/header-main.ftl</display-template>
-	<no-template-required>true</no-template-required>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>cbc5</objectGroupId>
-	<objectId>cbc5684c-171c-3f7e-433a-b364f51e6ca5</objectId>
-	<file-name>vay-von.xml</file-name>
-	<folder-name/>
-	<internal-name>Vay vốn (tiêu đề)</internal-name>
-	<name_Header_Slim_s>Vay vốn</name_Header_Slim_s>
-	<url_ing_lv2_s>#vay-von-img-lv-2</url_ing_lv2_s>
-	<title_main_s>Vay vốn Agribank</title_main_s>
-	<name_product_left_lv2_s/>
-	<description_product_left_lv2_s/>
-	<name_product_right_lv2_s/>
-	<description_product_right_lv2_s/>
-	<img_level_2_s>/static-assets/images/chovay.png</img_level_2_s>
-	<list_item_header_lv2_o item-list="true">	<item>	<name_item_header_lv2_s>Tính khoản vay</name_item_header_lv2_s>
-	<icon_item_header_lv2_s>/static-assets/images/calculator.png</icon_item_header_lv2_s>
-	<url_item_header_lv2_s>#tinh-khoan-vay</url_item_header_lv2_s>
-	</item>	<item>	<name_item_header_lv2_s>Lãi suất vay</name_item_header_lv2_s>
-	<icon_item_header_lv2_s>/static-assets/images/percent.png</icon_item_header_lv2_s>
-	<url_item_header_lv2_s>#lai-suat-vay</url_item_header_lv2_s>
-	</item>	<item>	<name_item_header_lv2_s>Biểu mẫu và biểu phí</name_item_header_lv2_s>
-	<icon_item_header_lv2_s>/static-assets/images/filetext.png</icon_item_header_lv2_s>
-	<url_item_header_lv2_s>#bieu-mau-va-bieu-phi</url_item_header_lv2_s>
-	</item></list_item_header_lv2_o>
-	<list_button_left_o item-list="true">	<item>	<name_button_left_s>Cho vay tín dụng tiêu dùng</name_button_left_s>
-	<url_button_left_s>#cho-vay-tieu-dung</url_button_left_s>
-	</item>	<item>	<name_button_left_s>Cho vay hạn mức quy mô nhỏ</name_button_left_s>
-	<url_button_left_s>#cho-vay-han-muc-quy-mo-nho</url_button_left_s>
-	</item>	<item>	<name_button_left_s>Cho vay lưu vụ</name_button_left_s>
-	<url_button_left_s>#cho-vay-luu-vu</url_button_left_s>
-	</item>	<item>	<name_button_left_s>Cho vay hỗ trợ giảm tổn thất nông nghiệp</name_button_left_s>
-	<url_button_left_s>#cho-vay-ho-tro-giam-ton-that-nong-nghiep</url_button_left_s>
-	</item>	<item>	<name_button_left_s>Cho vay phục vụ chính sách phát triển nông nghiệp </name_button_left_s>
-	<url_button_left_s>#cho-vay-phuc-vu-cs-nong-nghiep</url_button_left_s>
-	</item></list_button_left_o>
-	<list_button_right_o item-list="true">	<item>	<name_button_right_s>Cho vay ưu đãi lãi suất</name_button_right_s>
-	<url_button_right_s>#cho-vay-uu-dai-lai-suat</url_button_right_s>
-	</item>	<item>	<name_button_right_s>Cho vay dưới hình thức thấu chi tài khoản</name_button_right_s>
-	<url_button_right_s>#cho-vay-duoi-hinh-thuc-thau-chi-tai-khoan</url_button_right_s>
-	</item>	<item>	<name_button_right_s>Cho vay phục vụ nhu cầu đời sống</name_button_right_s>
-	<url_button_right_s>#cho-vay-nhu-cau-doi-song</url_button_right_s>
-	</item>	<item>	<name_button_right_s>Cho vay phục vụ hoạt động kinh doanh</name_button_right_s>
-	<url_button_right_s>#cho-vay-phuc-vu-hoat-dong-kinh-doanh</url_button_right_s>
-	</item>	<item>	<name_button_right_s>Cho vay qua tổ vay vốn/tổ liên kết – tổ cho vay lư</name_button_right_s>
-	<url_button_right_s>#cho-vay-qua-to-von-to-lien-ket</url_button_right_s>
-	</item></list_button_right_o>
-	<createdDate>2025-01-17T08:57:57.762Z</createdDate>
-	<createdDate_dt>2025-01-17T08:57:57.762Z</createdDate_dt>
-	<lastModifiedDate>2025-01-17T08:57:57.762Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-01-17T08:57:57.762Z</lastModifiedDate_dt>
-</component>
-	</item>	<item inline="true">	<key>f468c202-91f0-8485-db5f-dbc7729c3337</key>
-	<value>khác (tiêu đề)</value>
-<component id="f468c202-91f0-8485-db5f-dbc7729c3337">
-	<content-type>/component/header-level-2</content-type>
-	<display-template>/templates/web/header-main.ftl</display-template>
-	<no-template-required>true</no-template-required>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>f468</objectGroupId>
-	<objectId>f468c202-91f0-8485-db5f-dbc7729c3337</objectId>
-	<internal-name>khác (tiêu đề)</internal-name>
-	<name_Header_Slim_s>khác</name_Header_Slim_s>
-	<url_ing_lv2_s>#khac-img-lv-2</url_ing_lv2_s>
-	<title_main_s/>
-	<name_product_left_lv2_s/>
-	<description_product_left_lv2_s/>
-	<name_product_right_lv2_s/>
-	<description_product_right_lv2_s/>
-	<file-name>other.xml</file-name>
-	<folder-name/>
-	<img_level_2_s>/static-assets/images/orther.png</img_level_2_s>
-	<list_item_header_lv2_o item-list="true">	<item>	<name_item_header_lv2_s>Câu hỏi thường gặp</name_item_header_lv2_s>
-	<icon_item_header_lv2_s>/static-assets/images/sealquestion.png</icon_item_header_lv2_s>
-	<url_item_header_lv2_s>#cau-hoi-thuong-gap</url_item_header_lv2_s>
-	</item>	<item>	<name_item_header_lv2_s>Biểu mẫu và biểu phí</name_item_header_lv2_s>
-	<icon_item_header_lv2_s>/static-assets/images/filetext.png</icon_item_header_lv2_s>
-	<url_item_header_lv2_s>#bieu-mau-va-bieu-phi</url_item_header_lv2_s>
-	</item></list_item_header_lv2_o>
-	<createdDate>2025-01-17T09:05:24.215Z</createdDate>
-	<createdDate_dt>2025-01-17T09:05:24.215Z</createdDate_dt>
-	<lastModifiedDate>2025-01-17T09:05:24.215Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-01-17T09:05:24.215Z</lastModifiedDate_dt>
-</component>
-	</item></section_header_level_2_o>
+	<section_header_level_2_o item-list="true"/>
 	</item>	<item>	<label_button_left_level_1_s>Khuyến mãi</label_button_left_level_1_s>
 	<link_button_left_level_1_s>#khuyen-mai</link_button_left_level_1_s>
 	<section_header_level_2_o item-list="true"/>
 	</item></list_button_left_o>
 	<createdDate>2025-01-17T08:36:56.787Z</createdDate>
 	<createdDate_dt>2025-01-17T08:36:56.787Z</createdDate_dt>
-	<lastModifiedDate>2025-01-17T08:57:44.914Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-01-17T08:57:44.914Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-01-17T10:00:31.983Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-01-17T10:00:31.983Z</lastModifiedDate_dt>
 </component>
