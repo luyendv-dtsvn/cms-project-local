@@ -349,18 +349,11 @@
 				</field>
 					</fields>
 				</field>
-			</fields>
-		</section>
-		<section>
-			<title>form 1</title>
-			<description></description>
-			<defaultOpen>false</defaultOpen>
-			<fields>
 				<field>
 					<type>input</type>
-					<id>title_main_form1_s</id>
+					<id>title_main_s</id>
 					<iceId></iceId>
-					<title>title main form1</title>
+					<title>title main</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -598,12 +591,12 @@
 				</field>
 				<field>
 					<type>repeat</type>
-					<id>list_button_left_form1_o</id>
+					<id>list_button_left_o</id>
 					<iceId></iceId>
-					<title>list button left form 1</title>
+					<title>list button left </title>
 					<description></description>
 					<minOccurs>0</minOccurs>
-					<maxOccurs>3</maxOccurs>
+					<maxOccurs>5</maxOccurs>
 					<properties>
 						<property>
 							<name>minOccurs</name>
@@ -612,16 +605,16 @@
 						</property>
 						<property>
 							<name>maxOccurs</name>
-							<value>3</value>
+							<value>5</value>
 							<type>string</type>
 						</property>
 					</properties>
 					<fields>
 				<field>
 					<type>input</type>
-					<id>name_button_left_form1_s</id>
+					<id>name_button_left_s</id>
 					<iceId></iceId>
-					<title>name button left form 1</title>
+					<title>name button left </title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -667,9 +660,9 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>url_button_left_form1_s</id>
+					<id>url_button_left_s</id>
 					<iceId></iceId>
-					<title>url button left form 1</title>
+					<title>url button left</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -722,180 +715,6 @@
 					<title>list button right form 1</title>
 					<description></description>
 					<minOccurs>0</minOccurs>
-					<maxOccurs>3</maxOccurs>
-					<properties>
-						<property>
-							<name>minOccurs</name>
-							<value>0</value>
-							<type>string</type>
-						</property>
-						<property>
-							<name>maxOccurs</name>
-							<value>3</value>
-							<type>string</type>
-						</property>
-					</properties>
-					<fields>
-				<field>
-					<type>input</type>
-					<id>name_button_right_form1_s</id>
-					<iceId></iceId>
-					<title>name button right form 1</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>escapeContent</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>input</type>
-					<id>url_button_right_form1_s</id>
-					<iceId></iceId>
-					<title>url button right form 1</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>escapeContent</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-					</fields>
-				</field>
-			</fields>
-		</section>
-		<section>
-			<title>form 2</title>
-			<description></description>
-			<defaultOpen>false</defaultOpen>
-			<fields>
-				<field>
-					<type>input</type>
-					<id>title_main_form2_s</id>
-					<iceId></iceId>
-					<title>title main form2</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>escapeContent</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>repeat</type>
-					<id>list_button_left_form2_o</id>
-					<iceId></iceId>
-					<title>list button left form 2</title>
-					<description></description>
-					<minOccurs>0</minOccurs>
 					<maxOccurs>5</maxOccurs>
 					<properties>
 						<property>
@@ -912,9 +731,9 @@
 					<fields>
 				<field>
 					<type>input</type>
-					<id>name_button_left_form2_s</id>
+					<id>name_button_right_s</id>
 					<iceId></iceId>
-					<title>name button left form 2</title>
+					<title>name button right </title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -960,9 +779,9 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>url_button_left_form2_s</id>
+					<id>url_button_right_s</id>
 					<iceId></iceId>
-					<title>url button left form 2</title>
+					<title>url button right </title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -1008,132 +827,6 @@
 				</field>
 					</fields>
 				</field>
-				<field>
-					<type>repeat</type>
-					<id>list_button_right_form2_o</id>
-					<iceId></iceId>
-					<title>list button right form 2</title>
-					<description></description>
-					<minOccurs>0</minOccurs>
-					<maxOccurs>5</maxOccurs>
-					<properties>
-						<property>
-							<name>minOccurs</name>
-							<value>0</value>
-							<type>string</type>
-						</property>
-						<property>
-							<name>maxOccurs</name>
-							<value>5</value>
-							<type>string</type>
-						</property>
-					</properties>
-					<fields>
-				<field>
-					<type>input</type>
-					<id>name_button_right_form2_s</id>
-					<iceId></iceId>
-					<title>name button right form 2</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>escapeContent</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>input</type>
-					<id>url_button_right_form2_s</id>
-					<iceId></iceId>
-					<title>url button right form 2</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>escapeContent</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-					</fields>
-				</field>
-			</fields>
-		</section>
-		<section>
-			<title>form 3</title>
-			<description></description>
-			<defaultOpen>false</defaultOpen>
-			<fields>
 				<field>
 					<type>repeat</type>
 					<id>list_header_lv3_o</id>
