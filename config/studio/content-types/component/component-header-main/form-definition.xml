@@ -651,7 +651,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>header_level_2</value>
+							<value>header_level_21</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -688,7 +688,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1737081266892</title>
+			<title>Default Section Title 1737102800293</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
@@ -764,7 +764,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/header-level-2,/component/overview-video,/component/sponsors,/component/component-header-main</value>
+							<value>/component/header-level-2</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
