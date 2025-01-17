@@ -593,7 +593,7 @@
 					<type>repeat</type>
 					<id>list_button_left_o</id>
 					<iceId></iceId>
-					<title>list button left </title>
+					<title>list button left</title>
 					<description></description>
 					<minOccurs>0</minOccurs>
 					<maxOccurs>5</maxOccurs>
@@ -614,7 +614,7 @@
 					<type>input</type>
 					<id>name_button_left_s</id>
 					<iceId></iceId>
-					<title>name button left </title>
+					<title>name button left</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -733,7 +733,7 @@
 					<type>input</type>
 					<id>name_button_right_s</id>
 					<iceId></iceId>
-					<title>name button right </title>
+					<title>name button right</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -781,7 +781,7 @@
 					<type>input</type>
 					<id>url_button_right_s</id>
 					<iceId></iceId>
-					<title>url button right </title>
+					<title>url button right</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
