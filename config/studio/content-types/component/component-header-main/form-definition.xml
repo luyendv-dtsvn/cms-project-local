@@ -688,7 +688,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1737081106876</title>
+			<title>Default Section Title 1737081266892</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
@@ -728,8 +728,8 @@
 				</datasource>
 				<datasource>
 					<type>components</type>
-					<id>header_level_2</id>
-					<title>header-level-2</title>
+					<id>header_level_21</id>
+					<title>header-level-21</title>
 					<interface>item</interface>
 					<properties>
 						<property>
@@ -764,7 +764,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/header-level-2,/component/overview-video,/component/sponsors</value>
+							<value>/component/header-level-2,/component/overview-video,/component/sponsors,/component/component-header-main</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
