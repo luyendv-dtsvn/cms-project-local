@@ -15,11 +15,15 @@
 	<value>preheader</value>
 	<include>/site/components/section/header-top.xml</include>
 	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/header-user.xml</key>
+	<value>header-main</value>
+	<include>/site/components/header-user.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></sections_o>
 	<copyright_html>&lt;p&gt;DTSVN 2019&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;</copyright_html>
 	<createdDate>2024-11-12T08:47:01.199Z</createdDate>
 	<createdDate_dt>2024-11-12T08:47:01.199Z</createdDate_dt>
-	<lastModifiedDate>2025-01-09T03:00:18.178Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-01-09T03:00:18.178Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-01-17T08:35:05.780Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-01-17T08:35:05.780Z</lastModifiedDate_dt>
 </page>
