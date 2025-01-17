@@ -39,7 +39,9 @@
                                             <a href="#" class="body-15">>${button_left.label_button_left_level_1_s!}</a>
                                             <div style="" class="">
                                                 <ul class="ruby-menu-mega-blog-nav pb-4 col-3">
-                                                
+                                                <#list contentModel.VARIABLE_NAME.item as module>
+        <@renderComponent component=module />
+</#list>
                                                 
                                                 
                                                 
