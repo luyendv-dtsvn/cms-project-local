@@ -1,34 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/event</content-type>
-  <display-template>/templates/web/event.ftl</display-template>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <no-template-required/>
-  <objectGroupId>ff66</objectGroupId>
-  <objectId>ff66398c-5845-bd2a-e565-5a1a6b072224</objectId>
-  <file-name>index.xml</file-name>
-  <folder-name>about</folder-name>
-  <internal-name>về chúng tôi</internal-name>
-  <siteTitle_t>New Event</siteTitle_t>
-  <pageTitle_t>New Event</pageTitle_t>
-  <sections_o item-list="true">
-    <item>
-      <key>/site/components/section/header-top.xml</key>
-      <value>preheader</value>
-      <include>/site/components/section/header-top.xml</include>
-      <disableFlattening>false</disableFlattening>
-    </item>
-    <item>
-      <key>/site/components/header-user.xml</key>
-      <value>header-main</value>
-      <include>/site/components/header-user.xml</include>
-      <disableFlattening>false</disableFlattening>
-    </item>
-  </sections_o>
-  <copyright_html>&lt;p&gt;DTSVN 2019&lt;/p&gt;
+	<content-type>/page/event</content-type>
+	<display-template>/templates/web/event.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<no-template-required/>
+	<objectGroupId>ff66</objectGroupId>
+	<objectId>ff66398c-5845-bd2a-e565-5a1a6b072224</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>about</folder-name>
+	<internal-name>về chúng tôi</internal-name>
+	<siteTitle_t>New Event</siteTitle_t>
+	<pageTitle_t>New Event</pageTitle_t>
+	<sections_o item-list="true">	<item>	<key>/site/components/section/header-top.xml</key>
+	<value>preheader</value>
+	<include>/site/components/section/header-top.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/header-user.xml</key>
+	<value>header-main</value>
+	<include>/site/components/header-user.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></sections_o>
+	<copyright_html>&lt;p&gt;DTSVN 2019&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;</copyright_html>
-  <createdDate>2024-11-12T08:47:01.199Z</createdDate>
-  <createdDate_dt>2024-11-12T08:47:01.199Z</createdDate_dt>
-  <lastModifiedDate>2025-01-17T08:35:05.780Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-01-17T09:09:26.618Z</lastModifiedDate_dt>
+	<createdDate>2024-11-12T08:47:01.199Z</createdDate>
+	<createdDate_dt>2024-11-12T08:47:01.199Z</createdDate_dt>
+	<lastModifiedDate>2025-01-17T10:00:26.576Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-01-17T10:00:26.576Z</lastModifiedDate_dt>
 </page>
