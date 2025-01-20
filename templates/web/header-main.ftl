@@ -36,7 +36,7 @@
                             <#else>
                             <li class="ruby-menu-mega-blog ">
                               <a href="#"
-                                class="body-15">>${button_left.label_button_left_level_1_s!}</a>
+                                class="body-15">${button_left.label_button_left_level_1_s!}</a>
                                 <div style="" class="">
                                   <ul class="ruby-menu-mega-blog-nav pb-4 col-3">
                                     <#list button_left.section_header_level_2_o.item as module>
