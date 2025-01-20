@@ -97,7 +97,5 @@
       </div>
     </div>
   </div>
-</@crafter.body>
-<@crafter.body_bottom>
   <script src="/static-assets/js/navmenu.js" defer></script>
-</@crafter.body_bottom>
+</@crafter.body>
