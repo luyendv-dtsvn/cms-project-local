@@ -8,6 +8,6 @@
   <link rel="stylesheet" href="/static-assets/css/navmenu.css">
   <link rel="stylesheet" href="/static-assets/css/agri.css">
   <div>
-    <h1>${contentModel.name_Header_Slim_s!} </h1>
+    <span>${contentModel.name_Header_Slim_s!''} </span>
   </div>
     <@crafter.body_bottom />
