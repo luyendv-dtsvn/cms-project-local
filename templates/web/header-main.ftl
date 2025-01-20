@@ -1,5 +1,3 @@
-<#import "/templates/system/common/crafter.ftl" as crafter />
-
 <@crafter.header id="header">
   <link rel="stylesheet" href="/static-assets/css/font-awesome.css">
   <link rel="stylesheet" href="/static-assets/css/dashlite.css">
@@ -28,10 +26,25 @@
                       <ul class="ruby-menu">
                         <#if contentModel.list_button_left_o.item?? && contentModel.list_button_left_o.item?has_content>
                           <#list contentModel.list_button_left_o.item as button_left>
+                            <#if button_left.link_button_left_level_1_s?has_content>
                             <li class="ruby-menu-mega-blog ">
                               <a href="${button_left.link_button_left_level_1_s!''}"
                                 class="body-15">>${button_left.label_button_left_level_1_s!}</a>
                             </li>
+                            <#else>
+                            <li class="ruby-menu-mega-blog ">
+                              <a href="#"
+                                class="body-15">>${button_left.label_button_left_level_1_s!}</a>
+                                <div style="" class="">
+                                  <ul class="ruby-menu-mega-blog-nav pb-4 col-3">
+                                    <#list button_left.section_header_level_2_o.item as module>
+                                      <@renderComponent component=module />
+                                    </#list>
+                                  </ul>
+                                </div>
+                                <span class="ruby-dropdown-toggle"></span>
+                            </li>
+                            </#if>
                           </#list>
                         </#if>
                       </ul>
