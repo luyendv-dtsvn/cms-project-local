@@ -31,7 +31,7 @@
                             <#if button_left.link_button_left_level_1_s?has_content>
                             <li class="ruby-menu-mega-blog ">
                               <a href="${button_left.link_button_left_level_1_s!''}"
-                                class="body-15">>${button_left.label_button_left_level_1_s!}</a>
+                                class="body-15">${button_left.label_button_left_level_1_s!}</a>
                             </li>
                             <#else>
                             <li class="ruby-menu-mega-blog ">
