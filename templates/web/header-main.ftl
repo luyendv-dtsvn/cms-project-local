@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.header id="header">
+<@crafter.body>
   <link rel="stylesheet" href="/static-assets/css/font-awesome.css">
   <link rel="stylesheet" href="/static-assets/css/dashlite.css">
   <link rel="stylesheet" href="/static-assets/css/home-user.css">
@@ -93,4 +93,4 @@
       </div>
     </div>
   </div>
-</@crafter.header>
+</@crafter.body>
