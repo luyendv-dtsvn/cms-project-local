@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/static-assets/css/common.css">
   <link rel="stylesheet" href="/static-assets/css/navmenu.css">
   <link rel="stylesheet" href="/static-assets/css/agri.css">
-<li><a href="#" class="pb-2">${contentModel.name_Header_Slim_s!""}</a>
+<div><a href="#" class="pb-2">${contentModel.name_Header_Slim_s!""}</a>
     <div class="ruby-grid ruby-grid-lined">
         <div class="ruby-row">
             <div class="ruby-col-8">
@@ -114,5 +114,5 @@
     </div>
     </div>
     <span class="ruby-dropdown-toggle"></span>
-</li>
+</div>
     </@crafter.body>
