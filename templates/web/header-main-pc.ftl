@@ -1,16 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <@crafter.body>
-  <!-- Liên kết CSS -->
-  <link rel="stylesheet" href="/static-assets/css/font-awesome.css">
-  <link rel="stylesheet" href="/static-assets/css/dashlite.css">
-  <link rel="stylesheet" href="/static-assets/css/home-user.css">
-  <link rel="stylesheet" href="/static-assets/css/common.css">
-  <link rel="stylesheet" href="/static-assets/css/navmenu.css">
-  <link rel="stylesheet" href="/static-assets/css/agri.css">
 
-  <!-- Bắt đầu nội dung -->
-  <div>
     <!-- Ví dụ: nút/hyperlink -->
     <a href="#" class="pb-2">
       ${contentModel.name_Header_Slim_s!""}
@@ -145,7 +136,7 @@
 
       </div><!-- end .ruby-row -->
     </div><!-- end .ruby-grid -->
-  </div><!-- end outer div -->
+
 
   <span class="ruby-dropdown-toggle"></span>
 </@crafter.body>
