@@ -38,13 +38,13 @@
                               <a href="#"
                                 class="body-15">${button_left.label_button_left_level_1_s!}</a>
                                 <div style="" class="">
-                                    <ul class="ruby-menu-mega-blog-nav pb-4 col-3">
+                                    
                                     <#if button_left.section_header_level_2_o.item?? && button_left.section_header_level_2_o.item?has_content>
                                       <#list button_left.section_header_level_2_o.item as module>
                                         <@renderComponent component=module />
                                       </#list>
                                     </#if>
-                                    </ul>
+                                    
                                 </div>
                                 <span class="ruby-dropdown-toggle"></span>
                             </li>
