@@ -40,7 +40,7 @@
                                 <div style="" class="">
                                   <#if button_left.section_header_level_2_o.item?? && button_left.section_header_level_2_o.item?has_content>
                                       <#list button_left.section_header_level_2_o.item as module>
-                                        <@renderComponent button_left=module />
+                                        <@renderComponent component=module />
                                       </#list>
                                     </#if>
                                 </div>
