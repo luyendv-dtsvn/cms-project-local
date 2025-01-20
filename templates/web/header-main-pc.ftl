@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="/static-assets/css/agri.css">
 
   <!-- Bắt đầu nội dung -->
-  <li>
+  <div>
     <!-- Ví dụ: nút/hyperlink -->
     <a href="#" class="pb-2">
       ${contentModel.name_Header_Slim_s!""}
@@ -145,7 +145,7 @@
 
       </div><!-- end .ruby-row -->
     </div><!-- end .ruby-grid -->
-  </li><!-- end outer div -->
+  </div><!-- end outer div -->
 
   <span class="ruby-dropdown-toggle"></span>
 </@crafter.body>
