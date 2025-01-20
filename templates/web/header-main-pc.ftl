@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-   <@crafter.body_top />
+   <@crafter.body>
     <link rel="stylesheet" href="/static-assets/css/font-awesome.css">
   <link rel="stylesheet" href="/static-assets/css/dashlite.css">
   <link rel="stylesheet" href="/static-assets/css/home-user.css">
@@ -10,4 +10,4 @@
   <div>
     <span>${contentModel.name_Header_Slim_s!''} </span>
   </div>
-    <@crafter.body_bottom />
+    </@crafter.body>
