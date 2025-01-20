@@ -26,13 +26,63 @@
 	</item></list_accounts_o>
 	<list_button_left_o item-list="true">	<item>	<label_button_left_level_1_s>Sản phẩm dịch vụ</label_button_left_level_1_s>
 	<link_button_left_level_1_s/>
-	<section_header_level_2_o item-list="true"/>
+	<section_header_level_2_o item-list="true">	<item inline="true">	<key>020ff658-acb5-1dd5-a78d-10455b32645f</key>
+	<value>tiền gửi (tiêu đề)</value>
+<component id="020ff658-acb5-1dd5-a78d-10455b32645f">
+	<content-type>/component/header-level-2</content-type>
+	<display-template>/templates/web/header-main-pc.ftl</display-template>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>020f</objectGroupId>
+	<objectId>020ff658-acb5-1dd5-a78d-10455b32645f</objectId>
+	<file-name>test-1.xml</file-name>
+	<folder-name/>
+	<internal-name>tiền gửi (tiêu đề)</internal-name>
+	<name_Header_Slim_s>tiền gửi</name_Header_Slim_s>
+	<url_ing_lv2_s/>
+	<title_main_s/>
+	<name_product_left_lv2_s/>
+	<description_product_left_lv2_s/>
+	<name_product_right_lv2_s/>
+	<description_product_right_lv2_s/>
+	<img_level_2_s/>
+	<createdDate>2025-01-20T03:55:28.047Z</createdDate>
+	<createdDate_dt>2025-01-20T03:55:28.047Z</createdDate_dt>
+	<lastModifiedDate>2025-01-20T03:55:28.047Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-01-20T03:55:28.047Z</lastModifiedDate_dt>
+</component>
+	</item>	<item inline="true">	<key>3855ef21-b9ae-6211-a803-b03215c153d6</key>
+	<value>tiết kiệm (tiêu đề)</value>
+<component id="3855ef21-b9ae-6211-a803-b03215c153d6">
+	<content-type>/component/header-level-2</content-type>
+	<display-template>/templates/web/header-main-pc.ftl</display-template>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3855</objectGroupId>
+	<objectId>3855ef21-b9ae-6211-a803-b03215c153d6</objectId>
+	<file-name>tiet-kiem.xml</file-name>
+	<folder-name/>
+	<internal-name>tiết kiệm (tiêu đề)</internal-name>
+	<name_Header_Slim_s>tiết kiệm</name_Header_Slim_s>
+	<url_ing_lv2_s/>
+	<title_main_s/>
+	<name_product_left_lv2_s/>
+	<description_product_left_lv2_s/>
+	<name_product_right_lv2_s/>
+	<description_product_right_lv2_s/>
+	<img_level_2_s/>
+	<createdDate>2025-01-20T03:56:01.368Z</createdDate>
+	<createdDate_dt>2025-01-20T03:56:01.368Z</createdDate_dt>
+	<lastModifiedDate>2025-01-20T03:56:01.368Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-01-20T03:56:01.368Z</lastModifiedDate_dt>
+</component>
+	</item></section_header_level_2_o>
 	</item>	<item>	<label_button_left_level_1_s>Khuyến mãi</label_button_left_level_1_s>
 	<link_button_left_level_1_s>#khuyen-mai</link_button_left_level_1_s>
 	<section_header_level_2_o item-list="true"/>
 	</item></list_button_left_o>
 	<createdDate>2025-01-17T08:36:56.787Z</createdDate>
 	<createdDate_dt>2025-01-17T08:36:56.787Z</createdDate_dt>
-	<lastModifiedDate>2025-01-17T10:00:31.983Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-01-17T10:00:31.983Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-01-20T03:55:01.832Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-01-20T03:55:01.832Z</lastModifiedDate_dt>
 </component>
