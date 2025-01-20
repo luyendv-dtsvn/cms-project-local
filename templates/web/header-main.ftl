@@ -1,3 +1,5 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
+
 <@crafter.header id="header">
   <link rel="stylesheet" href="/static-assets/css/font-awesome.css">
   <link rel="stylesheet" href="/static-assets/css/dashlite.css">
