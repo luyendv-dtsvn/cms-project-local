@@ -26,55 +26,52 @@
 	</item></list_accounts_o>
 	<list_button_left_o item-list="true">	<item>	<label_button_left_level_1_s>Sản phẩm dịch vụ</label_button_left_level_1_s>
 	<link_button_left_level_1_s/>
-	<section_header_level_2_o item-list="true">	<item inline="true">	<key>020ff658-acb5-1dd5-a78d-10455b32645f</key>
-	<value>tiền gửi (tiêu đề)</value>
-<component id="020ff658-acb5-1dd5-a78d-10455b32645f">
+	<section_header_level_2_o item-list="true">	<item inline="true">	<key>0d31a90e-985b-6d60-eaff-47caa0c4de74</key>
+	<value>Gửi tiền Agribank (tiêu đề)</value>
+<component id="0d31a90e-985b-6d60-eaff-47caa0c4de74">
 	<content-type>/component/header-level-2</content-type>
 	<display-template>/templates/web/header-main-pc.ftl</display-template>
 	<no-template-required>true</no-template-required>
 	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>020f</objectGroupId>
-	<objectId>020ff658-acb5-1dd5-a78d-10455b32645f</objectId>
-	<file-name>test-1.xml</file-name>
+	<objectGroupId>0d31</objectGroupId>
+	<objectId>0d31a90e-985b-6d60-eaff-47caa0c4de74</objectId>
+	<file-name>tien-gui.xml</file-name>
 	<folder-name/>
-	<internal-name>tiền gửi (tiêu đề)</internal-name>
-	<name_Header_Slim_s>tiền gửi</name_Header_Slim_s>
-	<url_ing_lv2_s/>
-	<title_main_s/>
-	<name_product_left_lv2_s/>
-	<description_product_left_lv2_s/>
-	<name_product_right_lv2_s/>
-	<description_product_right_lv2_s/>
-	<img_level_2_s/>
-	<createdDate>2025-01-20T03:55:28.047Z</createdDate>
-	<createdDate_dt>2025-01-20T03:55:28.047Z</createdDate_dt>
-	<lastModifiedDate>2025-01-20T03:55:28.047Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-01-20T03:55:28.047Z</lastModifiedDate_dt>
-</component>
-	</item>	<item inline="true">	<key>3855ef21-b9ae-6211-a803-b03215c153d6</key>
-	<value>tiết kiệm (tiêu đề)</value>
-<component id="3855ef21-b9ae-6211-a803-b03215c153d6">
-	<content-type>/component/header-level-2</content-type>
-	<display-template>/templates/web/header-main-pc.ftl</display-template>
-	<no-template-required>true</no-template-required>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>3855</objectGroupId>
-	<objectId>3855ef21-b9ae-6211-a803-b03215c153d6</objectId>
-	<file-name>tiet-kiem.xml</file-name>
-	<folder-name/>
-	<internal-name>tiết kiệm (tiêu đề)</internal-name>
-	<name_Header_Slim_s>tiết kiệm</name_Header_Slim_s>
-	<url_ing_lv2_s/>
-	<title_main_s/>
-	<name_product_left_lv2_s/>
-	<description_product_left_lv2_s/>
-	<name_product_right_lv2_s/>
-	<description_product_right_lv2_s/>
-	<img_level_2_s/>
-	<createdDate>2025-01-20T03:56:01.368Z</createdDate>
-	<createdDate_dt>2025-01-20T03:56:01.368Z</createdDate_dt>
-	<lastModifiedDate>2025-01-20T03:56:01.368Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-01-20T03:56:01.368Z</lastModifiedDate_dt>
+	<internal-name>Gửi tiền Agribank (tiêu đề)</internal-name>
+	<name_Header_Slim_s>Gửi tiền</name_Header_Slim_s>
+	<url_ing_lv2_s> tien-gui-img</url_ing_lv2_s>
+	<title_main_s>Gửi tiền Agribank</title_main_s>
+	<name_product_left_lv2_s>Tiền gửi</name_product_left_lv2_s>
+	<description_product_left_lv2_s>Đa dạng kỳ hạn gửi và hình thức lãi cho  khách hàn</description_product_left_lv2_s>
+	<name_product_right_lv2_s>Tiền gửi tiết kiệm</name_product_right_lv2_s>
+	<description_product_right_lv2_s>Tiết kiệm an toàn, sinh lời ổn định với lãi suất  </description_product_right_lv2_s>
+	<img_level_2_s>/static-assets/images/guitien.png</img_level_2_s>
+	<list_item_header_lv2_o item-list="true">	<item>	<name_item_header_lv2_s>Tính khoản tiết kiệm</name_item_header_lv2_s>
+	<icon_item_header_lv2_s>/static-assets/images/calculator.png</icon_item_header_lv2_s>
+	<url_item_header_lv2_s>tien-gui-item-1</url_item_header_lv2_s>
+	</item>	<item>	<name_item_header_lv2_s>Lãi suất tiền gửi</name_item_header_lv2_s>
+	<icon_item_header_lv2_s>/static-assets/images/frame.png</icon_item_header_lv2_s>
+	<url_item_header_lv2_s>tien-gui-item-2</url_item_header_lv2_s>
+	</item>	<item>	<name_item_header_lv2_s>Biểu mẫu và biểu phí</name_item_header_lv2_s>
+	<icon_item_header_lv2_s>/static-assets/images/filetext.png</icon_item_header_lv2_s>
+	<url_item_header_lv2_s>tien-gui-item-3</url_item_header_lv2_s>
+	</item></list_item_header_lv2_o>
+	<list_button_left_o item-list="true">	<item>	<name_button_left_s>Tài khoản thanh toán</name_button_left_s>
+	<url_button_left_s>product-gui-tien-1</url_button_left_s>
+	</item>	<item>	<name_button_left_s>Tiền gửi trực tuyến</name_button_left_s>
+	<url_button_left_s>product-gui-tien-2</url_button_left_s>
+	</item></list_button_left_o>
+	<list_button_right_o item-list="true">	<item>	<name_button_right_s>Tiết kiệm có kỳ hạn</name_button_right_s>
+	<url_button_right_s>product-gui-tien-3</url_button_right_s>
+	</item>	<item>	<name_button_right_s>Tiền gửi tiết kiệm có kỳ hạn lãi suất thả nổi</name_button_right_s>
+	<url_button_right_s>product-gui-tien-4</url_button_right_s>
+	</item>	<item>	<name_button_right_s>Tiết kiệm gửi góp theo định kỳ</name_button_right_s>
+	<url_button_right_s>product-gui-tien-5</url_button_right_s>
+	</item></list_button_right_o>
+	<createdDate>2025-01-20T09:15:37.335Z</createdDate>
+	<createdDate_dt>2025-01-20T09:15:37.335Z</createdDate_dt>
+	<lastModifiedDate>2025-01-20T09:15:37.335Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-01-20T09:15:37.335Z</lastModifiedDate_dt>
 </component>
 	</item></section_header_level_2_o>
 	</item>	<item>	<label_button_left_level_1_s>Khuyến mãi</label_button_left_level_1_s>
@@ -83,6 +80,6 @@
 	</item></list_button_left_o>
 	<createdDate>2025-01-17T08:36:56.787Z</createdDate>
 	<createdDate_dt>2025-01-17T08:36:56.787Z</createdDate_dt>
-	<lastModifiedDate>2025-01-20T03:55:01.832Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-01-20T03:55:01.832Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-01-20T09:15:24.968Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-01-20T09:15:24.968Z</lastModifiedDate_dt>
 </component>
